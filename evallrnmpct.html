@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ALPS Competency Calculator</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+        <link href="/content/AFNI/publications/2716/wor/wo_4514/css/angular-material.css" rel="stylesheet" type="text/css">
+        <link href="/content/AFNI/publications/2716/wor/wo_4514/css/md-data-table.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="/content/AFNI/publications/2718/wor/wo_4525/css/compcalc.css" rel="stylesheet" type="text/css">
+		
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-animate.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-aria.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-messages.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-material.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/md-data-table.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/js/calc.js"></script>
+        <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/js/comparr.js"></script>
+    </head>
+        <body class="bg">
+        <div class="bg">
+            <md-content class="md-padding bg" layout="row" layout-wrap layout-align="center start" ng-controller="CompMatrixController as cmatrix">
+                <div layout="column" ng-cloak>
+                    <md-card class="tblcard">
+                        <md-card-header id="cardheader">
+                            <md-card-header-text>
+                                <span class="md-title">ALPS Competency Calculator</span>
+                                <span class="md-subhead"></span>
+                            </md-card-header-text>
+                        </md-card-header>
+                        <md-card-content>
+                            <br>
+                            <p>Welcome to the ALPS Competency Calculator. Please follow the instructions for each step below to get the competency rating</p>
+                            <md-divider ng-value="cmatrix.compsel = cmatrix.comptncs[7]"></md-divider>
+                            <span class="md-headline">Step 1</span>
+                            <p>Use the sliders below to choose the options that best describe the behaviors displayed for the <b>{{cmatrix.compsel.name}}</b> competency. Hover over the behavior abbreviations for a more detailed description.</p><p>Press the <b>Get Rating</b> button when finished.</p>
+                        </md-card-content>
+                        <md-card-content class="md-whiteframe-1dp" layout="column" layout-align="space-between stretch" >
+                                <md-toolbar>
+                                    <table md-table class="tbl-head">
+                                        <thead md-head>
+                                        <tr md-row>
+                                            <th md-column style="{{rating.style}}" ng-repeat="rating in cmatrix.ratings">{{rating.title}}</th>
+                                        </tr>
+                                    </thead>
+                                    </table>
+                                </md-toolbar>
+                                <div id="scrollable-area">
+                                <table md-table class="competencytable">
+                                    <tbody md-body >
+                                        <tr md-row ng-repeat-start="row in cmatrix.compsel.rows track by row.id">
+                                            <td md-cell colspan="5" style="text-align:center;"><b>{{row.name}}</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td md-cell colspan="5" md-theme="{{row.curval | number: 0}}">
+                                                <md-slider class="slider-cell md-primary" ng-model="row.curval" step=".2" min="{{row.minval}}" max="{{row.maxval}}" ng-disabled="cmatrix.results.show == true"></md-slider>
+                                            </td>
+                                        </tr>
+                                        <tr md-row id={{row.name}}>
+                                            <td md-cell style="{{behv.style}}" ng-mouseenter="row.currdesc = behv.desc; row.currstyle = behv.currstyle" ng-mouseleave="row.currdesc = ' '; row.currstyle = 'padding:3px;'" class="compcell" ng-repeat="behv in row.behvs track by behv.id" id="{{behv.name}}">
+                                                {{behv.desc}}
+                                            </td>
+                                        </tr>
+                                        <tr md-row ng-repeat-end style="text-align:left; padding: 3px;">
+                                            <td md-cell  colspan="5" ng-attr-style="{{row.currstyle}}">
+                                                <span>{{row.currdesc}}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                        </md-card-content>
+                        <md-card-actions style="text-align: center;">
+                            <md-button class="md-raised md-primary" ng-click="cmatrix.compscore()">Get Rating</md-button>
+                        </md-card-actions>
+                    </md-card>
+                    <md-card ng-show="cmatrix.results.show" class="tblcard">
+                        <md-card-header>
+                            <md-card-header-text>
+                                <span class="md-headline">Step 2</span>
+                            </md-card-header-text>
+                        </md-card-header>
+                        <md-card-content>
+                            <div style="text-align: center;" style="margin-bottom: 2%;">
+                                <span>The Rating is:</span>
+                                <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{cmatrix.comptotal}}</h2> or <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{cmatrix.comptotaltxt}}</h2>
+                                <span>Copy the text below. Enter the rating into the <b>{{cmatrix.compsel.name}}</b> Section and paste the behavior list into the comments section.</span>
+                                <br/>
+                                <i class="material-icons" style="font-size: xx-large; color: black;">&#xE5DB;</i>
+                            </div>
+                            <div class="md-whiteframe-4dp" style="padding: 2%;" >
+                                <span class="layout-max-width">{{cmatrix.comptxt.join('; ')}}</span>
+                            </div>
+                        </md-card-content>
+                    </md-card>
+                    <md-card>
+                        <md-card-actions layout="row" layout-align="space-between center" layout-wrap layout-margin layout-padding>
+                                <md-button class="md-raised md-warn" ng-click="cmatrix.reloadcalc()" >Start Over</md-button>
+                                <md-button class="md-raised md-warn md-hue-2" ng-click="cmatrix.closecalc()" >Close Calculator</md-button>
+                            </md-card-actions>
+                    </md-card>
+                </div>
+            </md-content>
+        </div>
+    </body>
+</html>

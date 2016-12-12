@@ -1,0 +1,44 @@
+.bg{
+    background-color: #f2f2f2;
+}
+#cardheader{
+    background: url('/clientimg/afni/welcome/compcalchead.jpg') no-repeat center center /cover;
+    color: white;
+}
+#scrollable-area {
+    margin: auto;
+    height: 450px;
+    border: 1px solid #ccc;
+    overflow-y: scroll; /* <-- here is what is important*/
+}
+.tbl-head{
+    max-width:1000px;
+}
+.competencytable{
+    table-layout: fixed;
+    min-width:800px;
+    max-width: 1000px;
+}
+.tbl-head.md-table th.md-column {
+    color:white;
+}
+.compcell{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.slider-cell{
+    margin: 0 auto;
+    width:100%;
+}
+.layout-max-width {
+    width: 100%;
+    max-width: 1000px;
+    display: inline-block;
+}
+.md-track-ticks canvas {
+	display: none; 
+}
+.tblcard {
+	max-width: 1000px;
+}
