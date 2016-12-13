@@ -16,7 +16,12 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Compile Include="js\calcapp.js" />
+    <Compile Include="js\config\themeconfig.js" />
+    <Compile Include="js\controllers\compmatrixcontroller.js" />
+    <Compile Include="js\factory\ratingfactory.js" />
     <Compile Include="server.js" />
+    <Content Include="js\objects\ratings.json" />
     <Content Include="New Text Document.txt" />
     <Content Include="bizacu.html" />
     <Content Include="coachndev.html" />
@@ -27,6 +32,7 @@
     <Content Include="index.html" />
     <Content Include="lrntech.html" />
     <Content Include="package.json" />
+    <Content Include="README.md" />
     <Content Include="trndlvry.html" />
     <Content Include="wkldmgmt.html" />
     <Content Include="wkplsk.html" />
@@ -37,6 +43,12 @@
   <ItemGroup>
     <Folder Include="css" />
     <Folder Include="js" />
+    <Folder Include="js\controllers\" />
+    <Folder Include="js\directives\" />
+    <Folder Include="js\config\" />
+    <Folder Include="js\factory\" />
+    <Folder Include="js\objects\" />
+    <Folder Include="js\services\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\body-parser\" />
