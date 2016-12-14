@@ -12,8 +12,8 @@ angular.module('calc')
 
         var states = [
             {
-                name: 'calc',
-                url: '/',
+                name: 'competency',
+                url: '',
                 component: 'starthere',
                 resolve: {
                     competencies: function (CompMatrixService) {
@@ -22,8 +22,23 @@ angular.module('calc')
                 }
             },
             {
-                name: 'calc.step1',
-                url: '/Step1',
+                name: 'competency.step1',
+                url: '/competency/{competencyRoute}',
+                component: 'competencymatrix',
+                resolve: {
+                    competency: function (competencies, $stateParams) {
+                        return competencies.find(function (competency) {
+                            return competency.route === $stateParams.competencyRoute;
+                        });
+                    },
+                    ratings: function (CompRatingService) {
+                        return CompRatingService.getAllRatings();
+                    }
+                }
+            },
+            {
+                name: 'starthere.step1',
+                url: '/step1',
                 component: 'step1'
             },
             { name: 'calc.step2', url: '/Step2', component: 'step2' }

@@ -13,6 +13,10 @@ angular.module('calc')
                 function competencyMatchesParam(competency) {
                     return competency.id === competency;
                 }
+
+                return service.getAllCompetencies().then(function (competencies) {
+                    return competencies.find(competencyMatchesParam)
+                });
             }
         }
 

@@ -2,42 +2,59 @@
   {
 
     "id": "1",
-    "name": "Coach & Develop"
+    "name": "Coach & Develop",
+    "route": "coach-and-develop",
+    "rows": [
+      {
+        "id": "1",
+        "name": "Communication"
+      }
+
+    ]
   },
   {
     "id": "2",
-    "name": "Time Management"
+    "name": "Time Management",
+    "route":  "time-management"
   },
   {
     "id": "3",
-    "name": "Builds Relationships"
+    "name": "Builds Relationships",
+    "route": "builds-relationships"
   },
   {
     "id": "4",
-    "name": "Critical Thinking"
+    "name": "Critical Thinking",
+    "route": "critical-thinking"
   },
   {
     "id": "5",
-    "name": "Business Acumen"
+    "name": "Business Acumen",
+    "route": "business-acumen"
   },
   {
     "id": "6",
-    "name": "Communication"
+    "name": "Communication",
+    "route": "communication"
   },
   {
     "id": "7",
-    "name": "Training Delivery with Impact"
+    "name": "Training Delivery with Impact",
+    "route": "training-delivery-with-impact"
   },
   {
     "id": "8",
-    "name": "Evaluating Learning Impact"
+    "name": "Evaluating Learning Impact",
+    "route": "evaluating-learning-impact"
   },
   {
     "id": "9",
-    "name": "Effective Learning Technology Management"
+    "name": "Effective Learning Technology Management",
+    "route": "effective-time-management"
   },
   {
     "id": "10",
-    "name": "Client Relationship Management"
+    "name": "Client Relationship Management",
+    "route": "client-relationship-management"
   }
 ]

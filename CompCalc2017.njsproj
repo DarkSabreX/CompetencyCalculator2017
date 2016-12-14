@@ -20,14 +20,16 @@
     <Compile Include="app\calc.routeconfig.js" />
     <Compile Include="app\calc.themeconfig.js" />
     <Compile Include="app\calc.uivizrun.js" />
+    <Compile Include="app\components\competencymatrix.js" />
     <Compile Include="app\components\starthere.js" />
     <Compile Include="app\components\step2.js" />
     <Compile Include="app\components\step1.js" />
     <Compile Include="app\controllers\calc.compmatrix.controller.js" />
     <Compile Include="app\factory\ratingfactory.js" />
+    <Compile Include="app\services\comprating.service.js" />
     <Compile Include="app\services\compmatrix.service.js" />
     <Compile Include="server.js" />
-    <Content Include="app\objects\ratings.json" />
+    <Content Include="data\ratings.json" />
     <Content Include="app\pages\Step1.html" />
     <Content Include="data\competencies.json" />
     <Content Include="index.orig.html" />
