@@ -1,12 +1,10 @@
 ﻿'use strict';
 
 angular.module('calc')
-    .component('starthere', {
+    .component('sidenavComponent', {
         bindings: { competencies: '<' },
         template:
         `
-            <div layout="row">
-            
             <md-sidenav md-is-locked-open="$mdMedia('gt-md')" layout="column">
 
             <span>Competencies</span>
@@ -16,14 +14,6 @@ angular.module('calc')
             </a>
 
             
-        </md-sidenav>
-        <md-content flex layout="row">
-            <ui-view>
-                <div layout="column">
-                    <p>Welcome to the ALPS Competency Calculator. Please select a competency on the left to get startedg</p>
-                </div>
-            </ui-view>
-        </md-content>
-        </div> 
+        </md-sidenav> 
         `
     });

@@ -30,6 +30,10 @@
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.themeconfig.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.routeconfig.js"></script>
     <!-- Load Components-->
+    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/pagecontainer.js"></script>
+    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/headerComponent.js"></script>
+    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/sidenavComponent.js"></script>
+    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/contentComponent.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/starthere.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/competencymatrix.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/step1.js"></script>
@@ -49,7 +53,11 @@
 </head>
 <body class="bg" ng-app="calc">
     <div layout="column" layout-fill>
-        <md-toolbar>ALPS Competency Calculator</md-toolbar>
+        <!--<ui-view name="header"></ui-view>
+        <div layout="row">
+            <ui-view name="sidenav"></ui-view>
+            <ui-view name="content"></ui-view>
+        </div>-->
         <ui-view></ui-view>
     </div>
     <!--<div class="bg">

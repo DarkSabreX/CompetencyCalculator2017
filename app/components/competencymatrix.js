@@ -5,7 +5,7 @@ angular.module('calc')
         bindings: { competency: '<', ratings: '<' },
         template:
            
-          `  
+          ` <md-content> 
             <md-card>
                 {{$ctrl.competency.name}}
                 <md-card-content>
@@ -36,8 +36,8 @@ angular.module('calc')
                                         </td>
                                     </tr>
                                     <tr md-row id={{row.name}}>
-                                        <td md-cell style="{{behv.style}}" ng-mouseenter="row.currdesc = behv.desc; row.currstyle = behv.currstyle" ng-mouseleave="row.currdesc = ' '; row.currstyle = 'padding:3px;'" class="compcell" ng-repeat="behv in row.behvs track by behv.id" id="{{behv.name}}">
-                                            {{behv.desc}}
+                                        <td md-cell style="{{behavior.style}}" ng-mouseenter="row.currdesc = behavior.description; row.currstyle = behavior.currstyle" ng-mouseleave="row.currdesc = ' '; row.currstyle = 'padding:3px;'" class="compcell" ng-repeat="behavior in row.behaviors track by behavior.id" id="{{behavior.name}}">
+                                            {{behavior.description}}
                                         </td>
                                     </tr>
                                     <tr md-row ng-repeat-end style="text-align:left; padding: 3px;">
@@ -49,5 +49,17 @@ angular.module('calc')
                             </table>
                         </div>
             </md-card>
+            <md-card>
+                <md-card-actions style="text-align: center;">
+                        <md-button class="md-raised md-primary" ng-click="cmatrix.compscore()">Get Rating</md-button>
+                    </md-card-actions>
+            </md-card>
+            </md-content>
+            <md-card>
+                    <md-card-actions layout="row" layout-align="space-between center" layout-wrap layout-margin layout-padding>
+                        <md-button class="md-raised md-warn" ng-click="cmatrix.reloadcalc()">Start Over</md-button>
+                        <md-button class="md-raised md-warn md-hue-2" ng-click="cmatrix.closecalc()">Close Calculator</md-button>
+                    </md-card-actions>
+                </md-card>
          `
     });

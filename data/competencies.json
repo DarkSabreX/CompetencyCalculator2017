@@ -1,59 +1,104 @@
 ﻿[
   {
 
-    "id": "1",
+    "id": 1,
     "name": "Coach & Develop",
     "route": "coach-and-develop",
     "rows": [
       {
-        "id": "1",
-        "name": "Communication"
+        "id": 1,
+        "name": "Communication",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 1,
+            "name": "row1val1",
+            "description": "Never provides direction, or fails to clearly communicate performance expectations",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "name": "row1val2",
+            "description": "Sometimes provides direction, or may fail to clearly communicate performance expectations",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "name": "row1val3",
+            "description": "Provides direction and clearly communicates performance expectations, checking back to ensure understanding",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 4,
+            "name": "row1val4",
+            "description": "Often defines and communicates roles and responsibilities in a way that connects behaviors and outcomes to capitalize on personal and team performance, checking back to ensure understanding",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "name": "row1val5",
+            "description": "Always defines and communicates roles and responsibilities in a way that connects behaviors and outcomes to capitalize on personal and team performance, checking back to ensure understanding",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
       }
 
     ]
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Time Management",
     "route":  "time-management"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Builds Relationships",
     "route": "builds-relationships"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Critical Thinking",
     "route": "critical-thinking"
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Business Acumen",
     "route": "business-acumen"
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Communication",
     "route": "communication"
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Training Delivery with Impact",
     "route": "training-delivery-with-impact"
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Evaluating Learning Impact",
     "route": "evaluating-learning-impact"
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "Effective Learning Technology Management",
     "route": "effective-time-management"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Client Relationship Management",
     "route": "client-relationship-management"
   }
