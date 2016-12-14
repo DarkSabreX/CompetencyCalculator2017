@@ -16,12 +16,21 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Compile Include="js\calcapp.js" />
-    <Compile Include="js\config\themeconfig.js" />
-    <Compile Include="js\controllers\compmatrixcontroller.js" />
-    <Compile Include="js\factory\ratingfactory.js" />
+    <Compile Include="app\calc.app.js" />
+    <Compile Include="app\calc.routeconfig.js" />
+    <Compile Include="app\calc.themeconfig.js" />
+    <Compile Include="app\calc.uivizrun.js" />
+    <Compile Include="app\components\starthere.js" />
+    <Compile Include="app\components\step2.js" />
+    <Compile Include="app\components\step1.js" />
+    <Compile Include="app\controllers\calc.compmatrix.controller.js" />
+    <Compile Include="app\factory\ratingfactory.js" />
+    <Compile Include="app\services\compmatrix.service.js" />
     <Compile Include="server.js" />
-    <Content Include="js\objects\ratings.json" />
+    <Content Include="app\objects\ratings.json" />
+    <Content Include="app\pages\Step1.html" />
+    <Content Include="data\competencies.json" />
+    <Content Include="index.orig.html" />
     <Content Include="New Text Document.txt" />
     <Content Include="bizacu.html" />
     <Content Include="coachndev.html" />
@@ -32,6 +41,11 @@
     <Content Include="index.html" />
     <Content Include="lrntech.html" />
     <Content Include="package.json" />
+    <Content Include="pages\starthere.html" />
+    <Content Include="pages\Step1.html" />
+    <Content Include="pages\Step2.html" />
+    <Content Include="partials\footernav.html" />
+    <Content Include="partials\sidenav.html" />
     <Content Include="README.md" />
     <Content Include="trndlvry.html" />
     <Content Include="wkldmgmt.html" />
@@ -41,27 +55,18 @@
     <Compile Include="js\comparr.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\components\" />
     <Folder Include="css" />
     <Folder Include="js" />
-    <Folder Include="js\controllers\" />
-    <Folder Include="js\directives\" />
-    <Folder Include="js\config\" />
-    <Folder Include="js\factory\" />
-    <Folder Include="js\objects\" />
-    <Folder Include="js\services\" />
-    <Folder Include="typings\" />
-    <Folder Include="typings\globals\" />
-    <Folder Include="typings\globals\body-parser\" />
-    <Folder Include="typings\globals\express\" />
-    <Folder Include="typings\globals\method-override\" />
-    <Folder Include="typings\globals\node\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="typings\globals\body-parser\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\express\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\method-override\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
-    <TypeScriptCompile Include="typings\index.d.ts" />
+    <Folder Include="app\controllers\" />
+    <Folder Include="app\pages\" />
+    <Folder Include="app\factory\" />
+    <Folder Include="app\objects\" />
+    <Folder Include="app\services\" />
+    <Folder Include="app\" />
+    <Folder Include="data\" />
+    <Folder Include="partials\" />
+    <Folder Include="pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->

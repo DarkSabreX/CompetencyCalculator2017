@@ -5,5 +5,5 @@ angular.module('calc', [
     'ngMaterial',
     'md.data.table',
     'ngAnimate',
-    'ngTouch'
+    'ui.router'
 ]);

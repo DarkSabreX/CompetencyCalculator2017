@@ -1,7 +1,6 @@
 ﻿'use strict';
 
 angular.module('calc')
-
     .config(function ($mdThemingProvider) {
         $mdThemingProvider.theme('default')
             .warnPalette('deep-purple');

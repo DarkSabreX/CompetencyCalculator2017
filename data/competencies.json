@@ -1,0 +1,43 @@
+﻿[
+  {
+
+    "id": "1",
+    "name": "Coach & Develop"
+  },
+  {
+    "id": "2",
+    "name": "Time Management"
+  },
+  {
+    "id": "3",
+    "name": "Builds Relationships"
+  },
+  {
+    "id": "4",
+    "name": "Critical Thinking"
+  },
+  {
+    "id": "5",
+    "name": "Business Acumen"
+  },
+  {
+    "id": "6",
+    "name": "Communication"
+  },
+  {
+    "id": "7",
+    "name": "Training Delivery with Impact"
+  },
+  {
+    "id": "8",
+    "name": "Evaluating Learning Impact"
+  },
+  {
+    "id": "9",
+    "name": "Effective Learning Technology Management"
+  },
+  {
+    "id": "10",
+    "name": "Client Relationship Management"
+  }
+]
