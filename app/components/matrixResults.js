@@ -2,12 +2,12 @@
 
 angular.module('calc')
     .component('matrixresults', {
-        bindings: { competency: '<', ratings: '<', total: '<' },
+        bindings: { competency: '<', ratings: '<', score: '<' },
         template:
            
           ` <md-content> 
             <md-card>
-                {{$ctrl.competency.name}}{{$ctrl.competency.id}}{{$ctrl.total}}
+                {{$ctrl.competency.name}}
                 <md-card-header>
                         <md-card-header-text>
                             <span class="md-headline">Step 2</span>
@@ -19,7 +19,7 @@ angular.module('calc')
                     <md-card-content>
                         <div style="text-align: center;" style="margin-bottom: 2%;">
                             <span>The Rating is:</span>
-                            <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{cmatrix.comptotal}}</h2> or <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{cmatrix.comptotaltxt}}</h2>
+                            <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{$ctrl.score.getFinalScore()}}</h2> or <h2 ng-attr-style="{{cmatrix.comptotaltxtcolor}}">{{cmatrix.comptotaltxt}}</h2>
                             <span>Copy the text below. Enter the rating into the <b>{{cmatrix.compsel.name}}</b> Section and paste the behavior list into the comments section.</span>
                             <br />
                             <i class="material-icons" style="font-size: xx-large; color: black;">&#xE5DB;</i>

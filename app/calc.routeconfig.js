@@ -42,11 +42,11 @@ angular.module('calc')
                             return competency.route === $stateParams.competencyRoute;
                         });
                     },
-                    ratings: function (CompMatrixService) {
-                        return CompMatrixService.getAllRatings();
+                    ratings: function (CompRatingService) {
+                        return CompRatingService.getAllRatings();
                     },
-                    total: function (CompMatrixService) {
-                        return CompMatrixService.getTotal();
+                    score: function (CompScoreService) {
+                        return CompScoreService;
                     }
                 }
             },
@@ -61,11 +61,11 @@ angular.module('calc')
                             return competency.route === $stateParams.competencyRoute;
                         });
                     },
-                    ratings: function (CompMatrixService) {
-                        return CompMatrixService.getAllRatings();
+                    ratings: function (CompRatingService) {
+                        return CompRatingService.getAllRatings();
                     },
-                    total: function (CompMatrixService) {
-                        return CompMatrixService.getTotal();
+                    score: function (CompScoreService) {
+                        return CompScoreService;
                     }
                 }
             }

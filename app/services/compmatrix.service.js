@@ -20,22 +20,6 @@ angular.module('calc')
                     return competencies.find(competencyMatchesParam)
                 });
             },
-
-            getAllRatings: function () {
-                return $http.get('data/ratings.json', { cache: true }).then(function (resp) {
-                    return resp.data;
-                });
-            },
-
-            getRating: function (id) {
-                function ratingMatchesParam(rating) {
-                    return rating.id === rating;
-                }
-
-                return service.getAllRatings().then(function (ratings) {
-                    return ratings.find(ratingMatchesParam)
-                });
-            },
             getTotal: function () {
                 return testVar;
             },

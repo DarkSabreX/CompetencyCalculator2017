@@ -2,10 +2,17 @@
 
 angular.module('calc')
     .component('competencymatrix', {
-        bindings: { competency: '<', ratings: '<' },
+        bindings: { competency: '<', ratings: '<', score:'<' },
         controller: function () {
             this.currentCompetency = function () {
                 return this.competency;
+            };
+
+            this.setScore = function (total) {
+                this.score.setFinalScore(total);
+            };
+            this.getScore = function () {
+                return this.score.getFinalScore();
             };
 
             this.competencyScore = function () {
@@ -16,6 +23,7 @@ angular.module('calc')
                     compsubtotal += this.currentCompetency().rows[i].curval;
                 }
                 var comptotal = Math.round(parseFloat(compsubtotal) / parseFloat(this.currentCompetency().rows.length));
+                this.setScore(comptotal);
                 return comptotal;
             };
              
@@ -24,7 +32,6 @@ angular.module('calc')
            
           ` <md-content> 
             <md-card>
-                {{$ctrl.getCompetency}}
                 {{$ctrl.competency.name}}
                 <md-card-content>
                     <span class="md-headline">Step 1</span>
@@ -69,9 +76,9 @@ angular.module('calc')
             </md-card>
             <md-card>
                 <md-card-actions style="text-align: center;">
-                        <md-button class="md-raised md-primary" ng-click="cmatrix.compscore()">Get Rating</md-button>
+                        <md-button class="md-raised md-primary" ui-sref="step2({competencyRoute: $ctrl.competency.route})">Get Rating</md-button>
                     </md-card-actions>
-                    <span>Test rating: {{$ctrl.competencyScore()}}</span>
+                    <span>Test rating: {{$ctrl.competencyScore()}} {{$ctrl.getScore()}}</span>
             </md-card>
             </md-content>
             <md-card>

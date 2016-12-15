@@ -31,7 +31,7 @@
     <Compile Include="app\components\headerComponent.js" />
     <Compile Include="app\controllers\calc.compmatrix.controller.js" />
     <Compile Include="app\factory\ratingfactory.js" />
-    <Compile Include="app\services\comptotal.service.js" />
+    <Compile Include="app\services\compscore.service.js" />
     <Compile Include="app\services\comprating.service.js" />
     <Compile Include="app\services\compmatrix.service.js" />
     <Compile Include="server.js" />
