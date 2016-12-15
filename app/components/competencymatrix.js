@@ -3,10 +3,28 @@
 angular.module('calc')
     .component('competencymatrix', {
         bindings: { competency: '<', ratings: '<' },
+        controller: function () {
+            this.currentCompetency = function () {
+                return this.competency;
+            };
+
+            this.competencyScore = function () {
+                var compsubtotal = 0;
+                for (var i = 0; i < this.currentCompetency().rows.length; i++) {
+                    var tmpCell = 0;
+                    tmpCell = Math.round(parseInt(this.currentCompetency().rows[i].curval, 10));
+                    compsubtotal += this.currentCompetency().rows[i].curval;
+                }
+                var comptotal = Math.round(parseFloat(compsubtotal) / parseFloat(this.currentCompetency().rows.length));
+                return comptotal;
+            };
+             
+        },
         template:
            
           ` <md-content> 
             <md-card>
+                {{$ctrl.getCompetency}}
                 {{$ctrl.competency.name}}
                 <md-card-content>
                     <span class="md-headline">Step 1</span>
@@ -53,6 +71,7 @@ angular.module('calc')
                 <md-card-actions style="text-align: center;">
                         <md-button class="md-raised md-primary" ng-click="cmatrix.compscore()">Get Rating</md-button>
                     </md-card-actions>
+                    <span>Test rating: {{$ctrl.competencyScore()}}</span>
             </md-card>
             </md-content>
             <md-card>

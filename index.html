@@ -36,11 +36,12 @@
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/contentComponent.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/starthere.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/competencymatrix.js"></script>
+    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/matrixResults.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/step1.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/step2.js"></script>
     <!-- Load Services-->
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/compmatrix.service.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/comprating.service.js"></script>
+    <!----<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/comprating.service.js"></script>-->
     <!-- Load Controller-->
     <!--<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/controllers/calc.compmatrix.controller.js"></script> -->
 
@@ -103,6 +104,7 @@
                             </table>
                         </md-toolbar>
                         <div id="scrollable-area">
+                            <form name="competencyForm">
                             <table md-table class="competencytable">
                                 <tbody md-body>
                                     <tr md-row ng-repeat-start="row in cmatrix.compsel.rows track by row.id">
@@ -111,6 +113,7 @@
                                     <tr>
                                         <td md-cell colspan="5" md-theme="{{row.curval | number: 0}}">
                                             <md-slider class="slider-cell md-primary" ng-model="row.curval" step=".2" min="{{row.minval}}" max="{{row.maxval}}" ng-disabled="cmatrix.results.show == true"></md-slider>
+                                            <div ng-message=""></div>
                                         </td>
                                     </tr>
                                     <tr md-row id={{row.name}}>
@@ -125,6 +128,7 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            </form>
                         </div>
                     </md-card-content>
                     <md-card-actions style="text-align: center;">

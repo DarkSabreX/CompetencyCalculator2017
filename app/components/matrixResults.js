@@ -2,12 +2,12 @@
 
 angular.module('calc')
     .component('matrixresults', {
-        bindings: { competency: '<', ratings: '<' },
+        bindings: { competency: '<', ratings: '<', total: '<' },
         template:
            
           ` <md-content> 
             <md-card>
-                {{$ctrl.competency.name}}
+                {{$ctrl.competency.name}}{{$ctrl.competency.id}}{{$ctrl.total}}
                 <md-card-header>
                         <md-card-header-text>
                             <span class="md-headline">Step 2</span>
@@ -37,4 +37,5 @@ angular.module('calc')
                     </md-card-actions>
                 </md-card>
          `
+         
     });

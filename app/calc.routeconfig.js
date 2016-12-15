@@ -33,7 +33,7 @@ angular.module('calc')
             },
             {
                 name: 'step1',
-                url: '/competency/{competencyRoute}',
+                url: '/calculator/{competencyRoute}',
                 parent: 'calculator',
                 component: 'competencymatrix',
                 resolve: {
@@ -42,28 +42,33 @@ angular.module('calc')
                             return competency.route === $stateParams.competencyRoute;
                         });
                     },
-                    ratings: function (CompRatingService) {
-                        return CompRatingService.getAllRatings();
+                    ratings: function (CompMatrixService) {
+                        return CompMatrixService.getAllRatings();
+                    },
+                    total: function (CompMatrixService) {
+                        return CompMatrixService.getTotal();
                     }
                 }
             },
             {
                 name: 'step2',
-                url: '/competency/{competencyRoute}/Results',
-                parent: 'step1',
-                component: 'competencymatrix',
+                url: '/results/{competencyRoute}',
+                parent: 'calculator',
+                component: 'matrixresults',
                 resolve: {
                     competency: function (competencies, $stateParams) {
                         return competencies.find(function (competency) {
                             return competency.route === $stateParams.competencyRoute;
                         });
                     },
-                    ratings: function (CompRatingService) {
-                        return CompRatingService.getAllRatings();
+                    ratings: function (CompMatrixService) {
+                        return CompMatrixService.getAllRatings();
+                    },
+                    total: function (CompMatrixService) {
+                        return CompMatrixService.getTotal();
                     }
                 }
-            },
-            { name: 'calc.step2', url: '/Step2', component: 'step2' }
+            }
         ]
 
         // Loop over the state definitions and register them
