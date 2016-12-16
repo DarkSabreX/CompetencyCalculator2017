@@ -15,15 +15,32 @@ angular.module('calc')
                 return this.score.getFinalScore();
             };
 
+            this.setDescriptions = function (desc) {
+                this.score.setFinalDescriptions(desc);
+            };
+            this.getDescriptions = function () {
+                return this.score.getFinalDescriptions();
+            };
+            var jsonParse = function (json) {
+                return angular.fromJson(json)
+            };
+
             this.competencyScore = function () {
-                var compsubtotal = 0;
+                var compSubtotal = 0;
+                var compDesc = [];
+
                 for (var i = 0; i < this.currentCompetency().rows.length; i++) {
                     var tmpCell = 0;
+                    var tmpDesc = {};
+                    var compName = this.currentCompetency().rows[i].name;
                     tmpCell = Math.round(parseInt(this.currentCompetency().rows[i].curval, 10));
-                    compsubtotal += this.currentCompetency().rows[i].curval;
+                    tmpDesc[compName] = this.currentCompetency().rows[i].behaviors[tmpCell - 1].description;
+                    compDesc.push(tmpDesc);
+                    compSubtotal += this.currentCompetency().rows[i].curval;
                 }
-                var comptotal = Math.round(parseFloat(compsubtotal) / parseFloat(this.currentCompetency().rows.length));
+                var comptotal = Math.round(parseFloat(compSubtotal) / parseFloat(this.currentCompetency().rows.length));
                 this.setScore(comptotal);
+                angular.fromJson(this.setDescriptions(compDesc));
                 return comptotal;
             };
              
@@ -78,7 +95,7 @@ angular.module('calc')
                 <md-card-actions style="text-align: center;">
                         <md-button class="md-raised md-primary" ui-sref="step2({competencyRoute: $ctrl.competency.route})">Get Rating</md-button>
                     </md-card-actions>
-                    <span>Test rating: {{$ctrl.competencyScore()}} {{$ctrl.getScore()}}</span>
+                    <span ng-list>Test rating: {{$ctrl.competencyScore()}} {{$ctrl.getScore()}} Descriptions: {{$ctrl.getDescriptions()}}</span>
             </md-card>
             </md-content>
             <md-card>

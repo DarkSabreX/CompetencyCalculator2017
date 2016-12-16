@@ -3,7 +3,8 @@ var comparr = [
 	{
 		id: "1",
 		name: "Coach & Develop",
-		rows: [{
+		rows: [
+				{
 				id: "1",
 				name: "Communication",
 				minval: 1,

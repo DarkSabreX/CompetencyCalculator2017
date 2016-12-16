@@ -1,0 +1,155 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "title": "Root schema.",
+  "description": "An explanation about the purpose of this instance.",
+  "items": {
+    "type": "object",
+    "title": "0 schema.",
+    "description": "An explanation about the purpose of this instance.",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "title": "Id schema.",
+        "description": "Id of Competency group. For internal function and tracking purposes.",
+        "id": "id"
+      },
+      "name": {
+        "type": "string",
+        "title": "Name schema.",
+        "description": "Name of competency group.",
+        "id": "name"
+      },
+      "route": {
+        "type": "string",
+        "title": "Route schema.",
+        "description": "URL route for UI-Router.",
+        "id": "route"
+      },
+      "rows": {
+        "type": "array",
+        "title": "Rows schema.",
+        "description": "Each Competency is listed in a row.",
+        "items": {
+          "type": "object",
+          "title": "0 schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "title": "Id schema.",
+              "description": "Row Id. 2 digit number. 1st digit is Competency Group id#, 2nd digit is row #.",
+              "id": "id"
+            },
+            "name": {
+              "type": "string",
+              "title": "Name schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "id": "name"
+            },
+            "minval": {
+              "type": "integer",
+              "maximum": 1,
+              "minimum": 1,
+              "title": "Minval schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "id": "minval"
+            },
+            "maxval": {
+              "type": "integer",
+              "maximum": 5,
+              "minimum": 5,
+              "title": "Maxval schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "id": "maxval"
+            },
+            "curval": {
+              "type": "integer",
+              "title": "Curval schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "id": "curval"
+            },
+            "behaviors": {
+              "type": "array",
+              "title": "Behaviors schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "items": {
+                "type": "object",
+                "title": "4 schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "title": "Id schema.",
+                    "description": "Behavior Id. 3 digit number. 1st digit is Competency Group id#, 2nd digit is row #, 3rd digit is behavior #.",
+                    "id": "id"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "name"
+                  },
+                  "description": {
+                    "type": "string",
+                    "title": "Description schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "description"
+                  },
+                  "style": {
+                    "type": "string",
+                    "title": "Style schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "style"
+                  },
+                  "currstyle": {
+                    "type": "string",
+                    "title": "Currstyle schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "currstyle"
+                  },
+                  "value": {
+                    "type": "integer",
+                    "maximum": 5,
+                    "minimum": 1,
+                    "title": "Value schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "value"
+                  }
+                },
+                "id": "4",
+                "required": [
+                  "id",
+                  "name",
+                  "description",
+                  "style",
+                  "currstyle",
+                  "value"
+                ]
+              },
+              "id": "behaviors"
+            }
+          },
+          "id": "0",
+          "required": [
+            "id",
+            "name",
+            "minval",
+            "maxval",
+            "curval",
+            "behaviors"
+          ]
+        },
+        "id": "rows"
+      }
+    },
+    "id": "0",
+    "required": [
+      "id",
+      "name",
+      "route",
+      "rows"
+    ]
+  },
+  "id": "/"
+}

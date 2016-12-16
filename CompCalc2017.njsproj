@@ -35,6 +35,7 @@
     <Compile Include="app\services\comprating.service.js" />
     <Compile Include="app\services\compmatrix.service.js" />
     <Compile Include="server.js" />
+    <Content Include="data\competency.schema.json" />
     <Content Include="data\ratings.json" />
     <Content Include="app\pages\Step1.html" />
     <Content Include="data\competencies.json" />

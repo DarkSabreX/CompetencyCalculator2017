@@ -6,14 +6,14 @@
     "route": "coach-and-develop",
     "rows": [
       {
-        "id": 1,
+        "id": 11,
         "name": "Communication",
         "minval": 1,
         "maxval": 5,
         "curval": 0,
         "behaviors": [
           {
-            "id": 1,
+            "id": 111,
             "name": "row1val1",
             "description": "Never provides direction, or fails to clearly communicate performance expectations",
             "style": "text-align:left; padding-left: 8px;",
@@ -21,7 +21,7 @@
             "value": 1
           },
           {
-            "id": 2,
+            "id": 112,
             "name": "row1val2",
             "description": "Sometimes provides direction, or may fail to clearly communicate performance expectations",
             "style": "text-align:left;",
@@ -29,7 +29,7 @@
             "value": 2
           },
           {
-            "id": 3,
+            "id": 113,
             "name": "row1val3",
             "description": "Provides direction and clearly communicates performance expectations, checking back to ensure understanding",
             "style": "text-align:center;",
@@ -37,7 +37,7 @@
             "value": 3
           },
           {
-            "id": 4,
+            "id": 114,
             "name": "row1val4",
             "description": "Often defines and communicates roles and responsibilities in a way that connects behaviors and outcomes to capitalize on personal and team performance, checking back to ensure understanding",
             "style": "text-align:right;",
@@ -45,7 +45,7 @@
             "value": 4
           },
           {
-            "id": 5,
+            "id": 115,
             "name": "row1val5",
             "description": "Always defines and communicates roles and responsibilities in a way that connects behaviors and outcomes to capitalize on personal and team performance, checking back to ensure understanding",
             "style": "text-align:right; white-space:break-word; padding-right:5px;",
@@ -53,8 +53,105 @@
             "value": 5
           }
         ]
+      },
+      {
+        "id": 12,
+        "name": "Accountability",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 121,
+            "name": "row2val1",
+            "description": "Does not follow-up on commitments made and does not hold team accountable for their actions in a timely manner.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 122,
+            "name": "row2val2",
+            "description": "Frequently does not hold individuals accountable for their actions; Sometimes does not provide feedback in a timely manner.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 123,
+            "name": "row2val3",
+            "description": "Holds individuals responsible for their actions in a manner that is timely, fair and objective; Measures performance against goals with consistent follow-up",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 124,
+            "name": "row2val4",
+            "description": "Holds individuals responsible for their actions in a manner that is timely, fair and objective; Measures performance and behaviors against goals with consistent follow-up",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 125,
+            "name": "row2val5",
+            "description": "Holds individuals responsible for their actions in a manner that is timely, fair and objective; Always measures performance and behaviors against goals with consistent follow-up Promotes individual and team accountability through consistent follow through with their employees.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Effective Coaching",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 131,
+            "name": "row3val1",
+            "description": "Always uses the 'tell' approach when coaching and does not incorporate effective questioning to lead the learner/agent to the correct behavior.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 132,
+            "name": "row3val2",
+            "description": "Tends to 'tell' their direct report what needs to be done instead of incorporating effective questioning to lead the learner/agent to the correct behavior.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 133,
+            "name": "row3val3",
+            "description": "Usually directs coaching session through collaboration and utilization of effective questioning for the learner to identify the correct action plan or performance gap",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 134,
+            "name": "row3val4",
+            "description": "Often directs coaching session through collaboration and utilization of effective questioning for the learner to identify the correct action plan and root cause of the behavioral or performance gap.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 135,
+            "name": "row3val5",
+            "description": "Always directs coaching session through collaboration and utilization of effective questioning for the learner to identify the correct action plan and root cause of the behavioral or performance gap. Effectively uses collaborative approach on all types of learners/agents.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
       }
-
     ]
   },
   {
