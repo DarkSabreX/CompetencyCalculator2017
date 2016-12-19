@@ -52,7 +52,7 @@ angular.module('calc')
         template:
            
           ` <form name="competencyForm" novalidate>
-            <md-content layout="row">
+            <md-content>
             <div flex="15"></div> 
             <md-card layout="column">
                 <md-card-header>

@@ -6,6 +6,8 @@ angular.module('calc')
         template:
         `
          <md-toolbar>ALPS Competency Calculator</md-toolbar>
-         <ui-view></ui-view>
+         <div layout="column" layout-fill>
+            <ui-view></ui-view>
+         </div>
         `
     });

@@ -5,7 +5,6 @@ angular.module('calc')
         bindings: { competencies: '<' },
         template:
         `
-            <div layout="row">
             
             <md-sidenav md-is-locked-open="$mdMedia('gt-md')" layout="column">
 
@@ -16,14 +15,13 @@ angular.module('calc')
             </a>
 
             
-        </md-sidenav>
-        <md-content flex layout="row">
-            <ui-view>
+         </md-sidenav>
+         <md-content flex layout="row">
+
                 <div layout="column">
                     <p>Welcome to the ALPS Competency Calculator. Please select a competency on the left to get started</p>
                 </div>
-            </ui-view>
-        </md-content>
-        </div> 
+
+         </md-content>
         `
     });

@@ -5,6 +5,5 @@ angular.module('calc', [
     'ngMaterial',
     'md.data.table',
     'ngAnimate',
-    'ui.router',
-    'rzModule'
+    'ui.router'
 ]);
