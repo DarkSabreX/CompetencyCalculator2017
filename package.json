@@ -2,7 +2,7 @@
   "name": "competency-calculator-2017",
   "version": "1.1.0",
   "description": "Competency Calculator for Performance Reviews",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,16 +17,17 @@
   },
   "homepage": "https://github.com/DarkSabreX/CompetencyCalculator2017#readme",
   "dependencies": {
-    "angular": "^1.6.0",
-    "angular-animate": "^1.6.0",
-    "angular-aria": "^1.6.0",
-    "angular-material": "^1.1.1",
-    "angular-material-data-table": "^0.10.9",
-    "angular-messages": "^1.6.0",
-    "angular-ui-router": "^1.0.0-beta.3",
-    "angularjs-slider": "^5.9.0",
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "method-override": "^2.3.7"
+    "angular": "1.6.0",
+    "angular-animate": "1.6.0",
+    "angular-aria": "1.6.0",
+    "angular-material": "1.1.1",
+    "angular-material-data-table": "0.10.10",
+    "angular-messages": "1.6.0",
+    "angular-ui-router": "1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "method-override": "2.3.7"
   }
 }

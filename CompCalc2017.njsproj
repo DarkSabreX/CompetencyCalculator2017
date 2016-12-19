@@ -28,6 +28,7 @@
     <Compile Include="app\services\comprating.service.js" />
     <Compile Include="app\services\compmatrix.service.js" />
     <Compile Include="server.js" />
+    <Content Include="app\pages\PageContainer.html" />
     <Content Include="data\competency.schema.json" />
     <Content Include="data\ratings.json" />
     <Content Include="data\competencies.json" />
@@ -35,9 +36,9 @@
     <Content Include="New Text Document.txt" />
     <Content Include="index.html" />
     <Content Include="package.json" />
-    <Content Include="pages\starthere.html" />
-    <Content Include="pages\Step1.html" />
-    <Content Include="pages\Step2.html" />
+    <Content Include="app\pages\StartHere.html" />
+    <Content Include="app\pages\CompetencyMatrix.html" />
+    <Content Include="app\pages\MatrixResults.html" />
     <Content Include="partials\footernav.html" />
     <Content Include="partials\sidenav.html" />
     <Content Include="README.md" />
@@ -53,7 +54,7 @@
     <Folder Include="app\" />
     <Folder Include="data\" />
     <Folder Include="partials\" />
-    <Folder Include="pages\" />
+    <Folder Include="app\pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
