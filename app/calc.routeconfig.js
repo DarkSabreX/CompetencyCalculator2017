@@ -66,7 +66,13 @@ angular.module('calc')
                     },
                     score: function (CompScoreService) {
                         return CompScoreService;
-                    }
+                    },
+                    finalScore: function (CompScoreService) {
+                        return CompScoreService.getFinalScore();
+                    },
+                    finalDescriptions: function (CompScoreService) {
+                        return CompScoreService.getFinalDescriptions();
+                    } 
                 }
             }
         ]

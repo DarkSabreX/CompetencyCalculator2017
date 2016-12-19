@@ -9,6 +9,7 @@ var serverPort = '3000';
 app.use(express.static(__dirname + '/')); 	// set the static files location /img will be /img for users
 
 app.use('/content/AFNI/publications/2716/wor/wo_4514/css', express.static(__dirname + '/node_modules/angular-material'));     // Angular Material CSS
+app.use('/content/AFNI/publications/2716/wor/wo_4514/css', express.static(__dirname + '/node_modules/angularjs-slider/dist'));     // Angular slider CSS
 app.use('/content/AFNI/publications/2716/wor/wo_4514/css', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table CSS
 app.use('/content/AFNI/publications/2718/wor/wo_4525/css', express.static(__dirname + '/css'));     // MD Data Table CSS
 
@@ -20,6 +21,7 @@ app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirna
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular-messages'));     // set static files location for angular messages
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular-material'));     // set static files location for angular material
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table js
+app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angularjs-slider/dist'));     // Angularjs slider js
 
 app.use('/content/AFNI/publications/2718/wor/wo_4525/js', express.static(__dirname + '/js'));     // Calculator and comparray JS
 app.use('/content/AFNI/publications/2718/wor/wo_4525/app', express.static(__dirname + '/app'));

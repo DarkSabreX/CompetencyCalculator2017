@@ -20,7 +20,7 @@ angular.module('calc')
         <md-content flex layout="row">
             <ui-view>
                 <div layout="column">
-                    <p>Welcome to the ALPS Competency Calculator. Please select a competency on the left to get startedg</p>
+                    <p>Welcome to the ALPS Competency Calculator. Please select a competency on the left to get started</p>
                 </div>
             </ui-view>
         </md-content>

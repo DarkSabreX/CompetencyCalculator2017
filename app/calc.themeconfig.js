@@ -5,6 +5,9 @@ angular.module('calc')
         $mdThemingProvider.theme('default')
             .warnPalette('deep-purple');
 
+        $mdThemingProvider.theme('0')
+            .primaryPalette('red');
+
         $mdThemingProvider.theme('1')
             .primaryPalette('red');
 

@@ -1,8 +1,7 @@
 ﻿'use strict';
 
 angular.module('calc')
-    .service('CompMatrixService', function ($http) {
-        var testVar = 'success!'; 
+    .service('CompMatrixService', function ($http) { 
 
         var service = {
             getAllCompetencies: function () {
@@ -19,9 +18,6 @@ angular.module('calc')
                 return service.getAllCompetencies().then(function (competencies) {
                     return competencies.find(competencyMatchesParam)
                 });
-            },
-            getTotal: function () {
-                return testVar;
             },
             getCompetencyTotal: function () {
                 var competencySubTotal = 0;
