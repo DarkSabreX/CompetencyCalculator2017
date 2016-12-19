@@ -9,13 +9,11 @@
     <!-- Stylesheets -->
     <link href="/content/AFNI/publications/2716/wor/wo_4514/css/angular-material.css" rel="stylesheet" type="text/css">
     <link href="/content/AFNI/publications/2716/wor/wo_4514/css/md-data-table.css" rel="stylesheet" type="text/css">
-    <link href="/content/AFNI/publications/2716/wor/wo_4514/css/rzslider.css" rel="stylesheet" type="text/css">
     <!-- Custom Stylesheet -->
     <link href="/content/AFNI/publications/2718/wor/wo_4525/css/compcalc.css" rel="stylesheet" type="text/css">
     <!--Load Angular and Ui Router-->
     <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular.js"></script>
     <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-ui-router.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/rzslider.js"></script>
 
     <!-- Load Angular Material and dependencies-->
     <script type="text/javascript" src="/content/AFNI/publications/2716/wor/wo_4514/js/angular-animate.js"></script>
@@ -51,13 +49,11 @@
 
     <!-- Remove this one once it has been rebuilt into a Factory-->
     <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/js/comparr.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.uivizrun.js"></script>
+    <!--<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.uivizrun.js"></script>-->
 
 
 </head>
-<body class="bg" ng-app="calc">
-    <div layout="column" layout-fill>
-        <ui-view></ui-view>
-    </div>
+<body class="bg" ng-app="calc" layout="column">
+        <ui-view flex></ui-view>
 </body>
 </html>

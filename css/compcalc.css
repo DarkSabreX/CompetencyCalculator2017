@@ -1,3 +1,8 @@
+ body { 
+	 overflow: hidden; 
+	 max-width: 100%; 
+	 max-height: 100%; 
+ }
 .bg{
 	background-color: #f2f2f2;
 }
@@ -10,6 +15,10 @@
 	height: 450px;
 	border: 1px solid #ccc;
 	overflow-y: scroll; /* <-- here is what is important*/
+}
+.card-size {
+	min-width:1020px;
+	max-width: 1280px;
 }
 .tbl-head{
 	margin: auto;
@@ -52,4 +61,8 @@ table.md-table th.md-column {
 
 table.md-table:not(.md-row-select) td.md-cell.slider-cell{
   padding: 0 72px;
+}
+.warn-msg {
+	color:red;
+	font-size: .89em;
 }

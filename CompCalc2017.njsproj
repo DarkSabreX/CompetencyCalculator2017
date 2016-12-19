@@ -32,6 +32,7 @@
     <Content Include="data\competency.schema.json" />
     <Content Include="data\ratings.json" />
     <Content Include="data\competencies.json" />
+    <Content Include="img\arrow.png" />
     <Content Include="index.orig.html" />
     <Content Include="New Text Document.txt" />
     <Content Include="index.html" />
@@ -49,6 +50,7 @@
   <ItemGroup>
     <Folder Include="app\components\" />
     <Folder Include="css" />
+    <Folder Include="img\" />
     <Folder Include="js" />
     <Folder Include="app\services\" />
     <Folder Include="app\" />
