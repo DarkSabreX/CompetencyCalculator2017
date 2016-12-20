@@ -2,8 +2,7 @@
 
 angular.module('calc')
     .service('CompScoreService', function () {
-        var finalScore = '';
-        var finalDescriptions = [];
+        var finalScore = {};
         var service = {
             setFinalScore: function (total) {
                 finalScore = total;
