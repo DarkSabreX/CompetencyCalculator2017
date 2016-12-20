@@ -16,7 +16,7 @@
                     <table md-table class="tbl-head">
                         <thead md-head>
                             <tr md-row>
-                                <th md-column style="{{rating.style}}" ng-repeat="rating in $ctrl.ratings">{{rating.title}}</th>
+                                <th md-column ng-style="rating.style" ng-repeat="rating in $ctrl.ratings">{{rating.title}}</th>
                             </tr>
                         </thead>
                     </table>
@@ -47,7 +47,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div ng-if="!competencyForm.$invalid" ng-init="$ctrl.competencyScore()">
+                    <div ng-if="competencyForm.$valid && competencyForm.$dirty" ng-init="$ctrl.competencyScore()">
                     </div>
                 </div>
                 <md-card-actions style="text-align: center;">

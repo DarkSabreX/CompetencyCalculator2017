@@ -13,7 +13,7 @@ app.use('/content/AFNI/publications/2716/wor/wo_4514/css', express.static(__dirn
 app.use('/content/AFNI/publications/2716/wor/wo_4514/css', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table CSS
 app.use('/content/AFNI/publications/2718/wor/wo_4525/css', express.static(__dirname + '/css'));     // MD Data Table CSS
 
-
+app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/es6-shim'));     // set static files location for shim files
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular'));     // set static files location for angular js files
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular-ui-router/release'));     // set static files location for angular ui-router js files
 app.use('/content/AFNI/publications/2716/wor/wo_4514/js', express.static(__dirname + '/node_modules/angular-aria'));     // set static files location for angular animate

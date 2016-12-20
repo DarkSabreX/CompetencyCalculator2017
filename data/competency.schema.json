@@ -95,7 +95,13 @@
                     "title": "Description schema.",
                     "description": "An explanation about the purpose of this instance.",
                     "id": "description"
-                  },
+                  },           
+                  "currdesc": {
+                    "type": "string",
+                    "title": "Currdesc schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "id": "currdesc"
+                  }
                   "style": {
                     "type": "string",
                     "title": "Style schema.",
@@ -122,6 +128,7 @@
                   "id",
                   "name",
                   "description",
+                  "currdesc",
                   "style",
                   "currstyle",
                   "value"
