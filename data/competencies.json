@@ -129,7 +129,7 @@
           {
             "id": 133,
             "name": "row3val3",
-            "description": "Usually directs coaching session through collaboration and utilization of effective questioning for the learner to identify the correct action plan or performance gap",
+            "description": "Usually directs coaching session through collaboration and utilization of effective questioning for the learner to identify the correct action plan or performance gap.",
             "style": "text-align:center;",
             "currstyle": "padding:16px; font-weight:bold;",
             "value": 3
@@ -151,52 +151,2422 @@
             "value": 5
           }
         ]
+      },
+      {
+        "id": 14,
+        "name": "Behavioral Feedback",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 141,
+            "name": "row4val1",
+            "description": "Behavioral feedback is not provided, only numerical or targeted goals are discussed.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 142,
+            "name": "row4val2",
+            "description": "Behavioral feedback is only sometimes provided, with primary focus being on numerical or performance goals.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 143,
+            "name": "row4val3",
+            "description": "Utilizes SMART behavioral feedback with team members in order to accomplish a task or solve a problem. Links behaviors to performance goals.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 144,
+            "name": "row4val4",
+            "description": "Collaboratively utilizes SMART behavioral feedback, engaging the employee in an effective manner of guided questioning and self-discovery while linking behaviors to performance goals.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 145,
+            "name": "row4val5",
+            "description": "Always proactively adapts and utilizes SMART behavioral feedback, engaging the employee in an effective manner of guided questioning and self-discovery while linking behaviors to performance goals. Encourages team members to seek out new solutions, to consider alternatives to the norm, and to embrace the potential of change.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Development",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 151,
+            "name": "row5val1",
+            "description": "Does not hold weekly development meetings with employees.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 152,
+            "name": "row5val2",
+            "description": "Does not consistently hold weekly development meetings with employees which focus around performance and next steps. Inconsistently fosters a positive feedback environment by focusing more on negative feedback than building on strengths.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 153,
+            "name": "row5val3",
+            "description": "Meets with employees weekly to review performance, discuss action plans and determine next steps to success. Fosters a positive feedback environment through reinforcement of strengths.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 154,
+            "name": "row5val4",
+            "description": "Meets with employees weekly to review performance, discuss behaviors,  action plans and determine next steps to success, tailoring weekly goals as needed to adjust to behavior and performance goals. Fosters a positive feedback environment through reinforcement of strengths and inspires other to succeed.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 155,
+            "name": "row5val5",
+            "description": "Always meets with employees weekly to review performance, discuss behaviors, action plans and determine next steps to success, tailoring weekly goals proactively adjusting action plans to meet the needs of the business. Is a role model in creating a positive feedback environment through reinforcement of strengths.  Inspires others to succeed and teaches other leaders to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Flexibility",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 161,
+            "name": "row6val1",
+            "description": "Consistently uses a \"one size fits all\" method to coaching and feedback",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 162,
+            "name": "row6val2",
+            "description": "Tends not to recognize employees as individuals, using a \"one size fits all\" method to providing coaching and feedback.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 163,
+            "name": "row6val3",
+            "description": "Consistently uses appropriate methods and a flexible interpersonal style to help their team develop their capabilities.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 164,
+            "name": "row6val4",
+            "description": "Often uses appropriate methods and a flexible interpersonal style to help their team develop their capabilities while promoting personal accountability through self-inspection.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 165,
+            "name": "row6val5",
+            "description": "Always uses appropriate methods and a flexible interpersonal style to help their team develop their capabilities while promoting personal accountability through self-inspection of themselves and their team.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
       }
     ]
   },
   {
     "id": 2,
     "name": "Time Management",
-    "route":  "time-management"
+    "route": "time-management",
+    "rows": [
+      {
+        "id": 21,
+        "name": "Time Management",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 211,
+            "name": "row1val1",
+            "description": "Does not manage time effectively and rarely completes tasks on time. Is rarely on time for meetings.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 212,
+            "name": "row1val2",
+            "description": "Manages time ineffectively and is unable to consistently complete assigned tasks. Does not vary or adjust work planning in order to complete task efficiently.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 213,
+            "name": "row1val3",
+            "description": "Manages time effectively and consistently meets deadlines. Completes assigned tasks.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 214,
+            "name": "row1val4",
+            "description": "Consistently manages time effectively, meeting deadlines and completing assigned tasks in an efficient manner.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 215,
+            "name": "row1val5",
+            "description": "Always manages time effectively, meeting deadlines and completing assigned tasks in an efficient manner with high quality results.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Documentation",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 221,
+            "name": "row2val1",
+            "description": "Never utilizes a systematic approach to ensure all tasks are completed and documented appropriately.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 222,
+            "name": "row2val2",
+            "description": "Seldom utilizes a systematic approach to ensure all tasks are completed and documented appropriately",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 223,
+            "name": "row2val3",
+            "description": "Plans and schedules tasks so that work is completed on time.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 224,
+            "name": "row2val4",
+            "description": "Tasks or projects are well-documented, completed on time and communicated accurately and effectively to stakeholders.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 225,
+            "name": "row2val5",
+            "description": "Tasks or projects are well-documented, completed on time and communicated accurately and effectively to stakeholders. When engaged in a project, proactively assists others to ensure project is documented and completed on time.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Resource Utilization",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 231,
+            "name": "row3val1",
+            "description": "Never considers the utilization of available resources needed to complete a task.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 232,
+            "name": "row3val2",
+            "description": "Does not utilize or consider all available resources to complete a task in an efficient and effective manner.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 233,
+            "name": "row3val3",
+            "description": "Takes advantage of available resources (individuals, processes, departments, and tools) to complete work efficiently.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 234,
+            "name": "row3val4",
+            "description": "Effectively assesses own and others' workload and consistently delivers high quality results on time.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 235,
+            "name": "row3val5",
+            "description": "Proactively engages available resources, delivering high quality results on time through collaboration and partnerships, delegates tasks when appropriate. Shares best practices with others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Prioritization",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 241,
+            "name": "row4val1",
+            "description": "Does not understand or perform tasks according to their importance or urgency. Is usually behind in answering email or responding to requests.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 242,
+            "name": "row4val2",
+            "description": "Understands the importance of prioritizing tasks, however has challenges managing and completing tasks based on their order of importance and urgency. Tends to get behind in answering email or responding to requests.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 243,
+            "name": "row4val3",
+            "description": "Performs tasks according to their urgency; adjusts priorities when appropriate. Typically answers email in appropriate time frame.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 244,
+            "name": "row4val4",
+            "description": "Performs tasks quickly and efficiently according to their importance and urgency. Is able to adjust priorities based on business impact. Is able to delegate appropriate tasks. Responds to email in appropriate time frame.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 245,
+            "name": "row4val5",
+            "description": "Performs tasks quickly and efficiently according to their importance and urgency, while identifying potential obstacles and strategies to overcome them. Is able to adjust priorities based on business impact. Is able to delegate appropriate tasks. Finds new ways of organizing work area or planning work to accomplish work more efficiently and shares best practices with others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Multi-tasking",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 251,
+            "name": "row5val1",
+            "description": "Ineffective at multi-tasking and managing multiple projects, goals or individuals at once.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 252,
+            "name": "row5val2",
+            "description": "Has challenges with multi-tasking or managing more than one goal or project at a time.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 253,
+            "name": "row5val3",
+            "description": "Displays ability to multitask, managing multiple goals or individuals at once.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 254,
+            "name": "row5val4",
+            "description": "Multitasks effectively, with the ability to manage deliverables in multiple projects, initiatives and tasks while also managing team performance.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 255,
+            "name": "row5val5",
+            "description": "Multitasks effectively, with the ability to manage deliverables in multiple projects, initiatives and tasks while also managing team performance. Shares best practices and assist others in developing this skill.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Tool Utilization",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 261,
+            "name": "row6val1",
+            "description": "Does not effectively utilize resources or workplace tools to achieve goals.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 262,
+            "name": "row6val2",
+            "description": "Inconsistently utilizes resources or workplace tools to achieve goals.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 263,
+            "name": "row6val3",
+            "description": "Utilizes workplace tools and their features to achieve desired goals.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 264,
+            "name": "row6val4",
+            "description": "Utilizes workplace tools and their features in a manner which maximizes productivity output.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 265,
+            "name": "row6val5",
+            "description": "Utilizes workplace tools and their features in a manner which maximizes productivity output and teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Builds Relationships",
-    "route": "builds-relationships"
+    "route": "builds-relationships",
+    "rows": [
+      {
+        "id": 31,
+        "name": "Builds Relationships",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 311,
+            "name": "row1val1",
+            "description": "Does not demonstrate the ability to build effective relationships. Fosters an environment of reluctance and non-engagement which creates negative reactions and interactions with teammates and stakeholders.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 312,
+            "name": "row1val2",
+            "description": "Inconsistent with building effective relationships. Does not actively seek feedback or collaborate with others in order to achieve goals which can lead to loss of trust and respect.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 313,
+            "name": "row1val3",
+            "description": "Builds effective relationships with key internal teammates through collaboration and understanding. Fosters trust & respect.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 314,
+            "name": "row1val4",
+            "description": "Builds effective relationships with key internal teammates and external stakeholders to enhance collaboration and understanding, while fostering trust and respect of team and partners.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 315,
+            "name": "row1val5",
+            "description": "Maintains and forms partnership with teammates and stakeholders to achieve expectations. Takes responsibility for behavior, mistakes, and results. Learns from successes and failures, and teaches others to do the same. Fosters a positive environment which motivates others by expressing confidence about the importance of the task and the ability of others to accomplish it.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Collaboration",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 321,
+            "name": "row2val1",
+            "description": "Works independently towards organizational goals, without actively seeking partnership and collaboration. Actively imposes \"my way\" environment within their team.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 322,
+            "name": "row2val2",
+            "description": "Passively works on the organizational goals and does not seek for collaborative efforts with teammates and stakeholders.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 323,
+            "name": "row2val3",
+            "description": "Works collaboratively with other leaders to meet organizational goals. Seeks and considers ideas from others, including those who are reluctant to express their points of view.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 324,
+            "name": "row2val4",
+            "description": "Initiates collaboration within workgroups or with other leaders to achieve organizational goals. Actively engages others to share best practices. Anticipates, recognizes and addresses the concerns of others, even if those concerns are not openly expressed.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 325,
+            "name": "row2val5",
+            "description": "Takes initiative to partner with teammates/ stakeholders and involves them in generating mutually beneficial long-term opportunities and achieving win-win outcomes. Is a role model to others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Style Flexibility",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 331,
+            "name": "row3val1",
+            "description": "Does not interact with others involved in the tasks or projects, nor with teammates and/or stakeholders.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 332,
+            "name": "row3val2",
+            "description": "Maintains static personality style while interacting with others, unable to adapt personal style to best fit the needs and communication style of others.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 333,
+            "name": "row3val3",
+            "description": "Adapts to other people's behavior style in order to achieve desired goals.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 334,
+            "name": "row3val4",
+            "description": "Adapts personal communication style to other people's behavioral style in order to meet individual and group goals, and collaborate with others to help them achieve their goals.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 335,
+            "name": "row3val5",
+            "description": "Supports a constructive climate and works with an engaging communication style in ways that facilitate contributions by both collaboratively building upon or synthesizing the contributions of others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Meeting Engagement",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 341,
+            "name": "row4val1",
+            "description": "Does not attempt to actively engage in meetings with teammates and/or stakeholders. Makes excuses for non-involvement in meetings, planning sessions etc.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "row4val2",
+            "description": "Prefers to not actively engage during meetings or with business leaders.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 343,
+            "name": "row4val3",
+            "description": "Builds rapport by listening to, discussing and negotiating with direct reports, peers and business leaders.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 344,
+            "name": "row4val4",
+            "description": "Builds partnerships through active engagement with team and key stakeholders, fostering rapport through active listening, collaborative discussion/negotiation and follows through with rewarding, encouraging, and motivating others.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 345,
+            "name": "row4val5",
+            "description": "Encourages others to participate and support team activities and decision making. Solicits and respects others' opinions and is willing to learn from them. Positively contributes to the performance of the team while staying committed to address concerns/problems. Is a role model to others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Rapport",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 351,
+            "name": "row5val1",
+            "description": "Does not demonstrate willingness for rapport building.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 352,
+            "name": "row5val2",
+            "description": "Focuses too much time on rapport building without managing the performance of the team or focuses only on performance management without building trust and rapport.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 353,
+            "name": "row5val3",
+            "description": "Demonstrates a balance between building rapport and getting the work done.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 354,
+            "name": "row5val4",
+            "description": "Effectively balances rapport building and time management skills, and helps others do the same.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 355,
+            "name": "row5val5",
+            "description": "Develops mutually beneficial relationships and partnerships based upon trust, respect, and achievement of common goals. Demonstrates tenacity, persevering through significant challenges to reach goals. Supports perseverance in others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Conflict Management",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 361,
+            "name": "row6val1",
+            "description": "Does not exert effort to manage conflicts and avoids discussions and/or disagreements",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 362,
+            "name": "row6val2",
+            "description": "Uses discipline or fear to manage conflicts, confrontations or disagreements.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 363,
+            "name": "row6val3",
+            "description": "Manages conflicts, confrontations and disagreements in a constructive manner.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 364,
+            "name": "row6val4",
+            "description": "Proactively prevents and effectively manages conflict, confrontations and disagreements in a constructive manner.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 365,
+            "name": "row6val5",
+            "description": "Addresses destructive conflict and helps manage/resolve it which strengthens overall team cohesiveness and future effectiveness. Maintains a stable performance that is acceptable to others and the organization under the pressures of high workload, conflict, and ambiguity. Assists others in dealing with conflicts and stress.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Critical Thinking",
-    "route": "critical-thinking"
+    "route": "critical-thinking",
+    "rows": [
+      {
+        "id": 41,
+        "name": "Root Cause Analysis",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 411,
+            "name": "row1val1",
+            "description": "Does not understand the principles of cause and effect. Identifies inappropriate key issue or none at all. Describes issue inaccurately and fails to identify component points.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 412,
+            "name": "row1val2",
+            "description": "Does not understand the principles of cause and effect. Addresses symptoms instead of root cause.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 413,
+            "name": "row1val3",
+            "description": "Understands principles of cause and effect. Analyzes issues to separate cause from symptoms.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 414,
+            "name": "row1val4",
+            "description": "Understands and mitigates risk based on principles of cause and effect. Proactively analyzes issues to separate cause from symptoms and creates solutions.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 415,
+            "name": "row1val5",
+            "description": "Provides accurate interpretations that illustrate insight into information from which they are made. Draws conclusions that reflect clear and logical links of cause and effect and the interpretations made from them. Proactively and accurately analyzes the relevant constraints/issues. Teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Data Analysis",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 421,
+            "name": "row2val1",
+            "description": "No attempt in gathering various data for analysis.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 422,
+            "name": "row2val2",
+            "description": "Ineffective at gathering data in order to resolve a problem in an efficient manner. Makes assumptions instead of evaluating evidence.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 423,
+            "name": "row2val3",
+            "description": "Follows a standard process to gather information or data to solve a problem. Evaluates information explores and investigates in a deliberate manner",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 424,
+            "name": "row2val4",
+            "description": "Identifies and obtains the information, key issues and relationships, while distinguishing between relevant and irrelevant data needed to solve a problem effectively. Employs creative problem solving techniques to explore and investigate key issues",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 425,
+            "name": "row2val5",
+            "description": "Identifies and obtains the information, key issues and relationships, while distinguishing between relevant and irrelevant data needed to solve a problem effectively. Employs creative problem solving techniques to explore and investigate key issues. Accurately presents data and illustrates patterns or trends in a way that recognizes and correctly highlights the patterns and relationships and teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Creative Thinking",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 431,
+            "name": "row3val1",
+            "description": "Fails to accurately identify and assess the challenges",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 432,
+            "name": "row3val2",
+            "description": "When presented with a challenge, sees only the problems and obstacles without designing ways to overcome them.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 433,
+            "name": "row3val3",
+            "description": "Thinks of alternatives for a situation and anticipates potential obstacles.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 434,
+            "name": "row3val4",
+            "description": "Thinks of several possible explanations or alternatives for a situation and anticipates potential obstacles. Develops contingency plans to overcome them.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 435,
+            "name": "row3val5",
+            "description": "Demonstrates and implements multiple analytical and creative approaches to a given challenge and describes how various perspectives were used in addressing the problem or challenge. Teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Ownership",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 441,
+            "name": "row4val1",
+            "description": "Denies responsibility or ownership when challenges arise or takes responsibility or credit for success that isn't theirs.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 442,
+            "name": "row4val2",
+            "description": "Fails to acknowledge when one does not know the answer, or does not take the steps to learn or understand.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 443,
+            "name": "row4val3",
+            "description": "Acknowledges when one does not know something and takes the appropriate steps to learn or understand.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 444,
+            "name": "row4val4",
+            "description": "Acknowledges when one does not know something and takes the appropriate steps to learn or understand. Closes the information gap by communicating back to the initial individual or group.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 445,
+            "name": "row4val5",
+            "description": "Takes accountability through acknowledgment of lack of knowledge/information and is committed to keep current with trends and issues that may impact the job or company through research and other channels. Incorporates knowledge of current trends to the emerging departmental / client needs where applicable.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Solution Oriented",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 451,
+            "name": "row5val1",
+            "description": "Inability to identify problems or issues and or/ untimely identification of issues or problems.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 452,
+            "name": "row5val2",
+            "description": "Identifies or articulates problems incorrectly, resulting in ineffective solutions.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 453,
+            "name": "row5val3",
+            "description": "Identifies current problems and looks for solutions.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 454,
+            "name": "row5val4",
+            "description": "Proactively identifies issues or problems, and initiates problem analysis, including others if needed to recommend and implement a solution.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 455,
+            "name": "row5val5",
+            "description": "Proactively provides an accurate analysis of the effects of the issue or problem, including the complete description of possible effects. Provides highly thoughtful and creative approach for correcting issues or problems.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Business Acumen",
-    "route": "business-acumen"
+    "route": "business-acumen",
+    "rows": [
+      {
+        "id": 51,
+        "name": "Levers",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 511,
+            "name": "row1val1",
+            "description": "Unable to communicate how key performance indicators and behaviors link to the goals of the business.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 512,
+            "name": "row1val2",
+            "description": "Struggles with understanding and linking key performance indicators to the business.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 513,
+            "name": "row1val3",
+            "description": "Recognizes how key performance indicators and behaviors link to the goals of the business.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 514,
+            "name": "row1val4",
+            "description": "Recognizes how key performance indicators and behaviors link to the success and financial viability of the business.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 515,
+            "name": "row1val5",
+            "description": "Recognizes how key performance indicators and behaviors link to the success and financial viability of the business and teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Role & Responsibilities",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 521,
+            "name": "row2val1",
+            "description": "Fails to display or connect how personal behaviors relate to the organization’s mission and functions. Fails to adhere to expected ethical standards.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 522,
+            "name": "row2val2",
+            "description": "Inconsistently displays personal behaviors relating to the organization’s mission and functions. Inconsistently adheres to expected ethical standards.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 523,
+            "name": "row2val3",
+            "description": "Demonstrates understanding of the organization’s mission and functions, and is able to recognize one's role in the functioning of the company. Understands and executes on role responsibilities. Leads with integrity.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 524,
+            "name": "row2val4",
+            "description": "Demonstrates understanding and proactively communicates the organization’s mission and functions with peers and team. Is able to recognize one's role in the functioning of the company. Understands and is highly effective on execution of role responsibilities including adhering to ethical principles.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 525,
+            "name": "row2val5",
+            "description": "Is a role-model for the organization and actively emulates and shares the company’s mission, vision and values, always acting with integrity. Is highly effective in their current role and is considered to have high-potential.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Business Profitability",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 531,
+            "name": "row3val1",
+            "description": "Fails to demonstrate understanding of the Afni business model and fails to consistently execute on actions to align with what is required to operate profitably.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 532,
+            "name": "row3val2",
+            "description": "Inconsistently demonstrates understanding of the Afni business model and fails to consistently execute on actions to align with what is required to operate profitably. Displays minimal knowledge of the relationship between engagement, productivity and attrition.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 533,
+            "name": "row3val3",
+            "description": "Demonstrates understanding of the Afni business model and executes on actions to align with what is required to operate profitably. Ability to articulate the relationship between the attrition and productivity, along with the financial impact of attrition to the business.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 534,
+            "name": "row3val4",
+            "description": "Demonstrates understanding of the Afni business model and executes on actions to align with what is required to operate profitably. Ability to articulate the relationship between the attrition and productivity, along with the financial impact of attrition to the business, while positively impacting the business through relationship management, follow-through and utilization of productivity tools.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 535,
+            "name": "row3val5",
+            "description": "Demonstrates understanding of the Afni business model and executes on actions to align with what is required to operate profitably. Ability to articulate the relationship between the attrition and productivity, along with the financial impact of attrition to the business, while positively impacting the business through relationship management, follow-through and utilization of productivity tools. Teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Results",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 541,
+            "name": "row4val1",
+            "description": "Does not follow direction or identify and address potential obstacles in order to achieve and deliver results. Does not effectively balance personal and team goals.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 542,
+            "name": "row4val2",
+            "description": "Follows direction, but does not proactively identify and address potential obstacles in order to achieve and deliver results. Has challenges finding a balance between personal and team goals.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 543,
+            "name": "row4val3",
+            "description": "Follows direction and identifies and address potential obstacles in order to achieve and deliver results. Works effectively towards achieving team goals.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 544,
+            "name": "row4val4",
+            "description": "Initiates projects or work groups and partners with business leaders  with the goal of proactively addressing business related obstacles and overcoming challenges. Is a role model to others in demonstrating effective team work.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 545,
+            "name": "row4val5",
+            "description": "Initiates projects or work groups and partners with business leaders  with the goal of proactively addressing business related obstacles and overcoming challenges. Teaches others to do the same. Is a role model to others in demonstrating effective team work.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Employee Engagement",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 551,
+            "name": "row5val1",
+            "description": "Fails to demonstrate understanding of how employee satisfaction, motivation and morale impact productivity and the bottom line. Does not show appreciation for individual or team efforts.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 552,
+            "name": "row5val2",
+            "description": "Inconsistently demonstrates understanding of how employee satisfaction, motivation and morale impact productivity and the bottom line. Does not consistently show appreciation for individual or team efforts.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 553,
+            "name": "row5val3",
+            "description": "Positively impacts employee satisfaction, motivation and morale to impact productivity and the bottom line within their team. Makes individuals feel their work is important and valued through active appreciation.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 554,
+            "name": "row5val4",
+            "description": "Actively engages employees and workgroups to increase employee satisfaction, while proactively identifying opportunities to increase motivation and positively impact morale, productivity and the bottom line. Empowers others and energizes them to do and to be their best.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 555,
+            "name": "row5val5",
+            "description": "Actively engages employees and workgroups to increase employee satisfaction, while proactively identifying opportunities to increase motivation and positively impact morale, productivity and the bottom line. Empowers others and energizes them to do be their best. Teaches others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Ownership & Personal Development",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 561,
+            "name": "row6val1",
+            "description": "Does not take ownership or accept feedback. Excuses exclude from taking accountability.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 562,
+            "name": "row6val2",
+            "description": "Occasionally has challenges accepting constructive feedback and turning it into actionable change. Needs to be encouraged to pursue self development.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 563,
+            "name": "row6val3",
+            "description": "Takes ownership, accepting feedback and acting upon it in a positive way. Accepting responsibility for personal development beyond what is provided by others in order to continuously improve.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 564,
+            "name": "row6val4",
+            "description": "Takes ownership, accepting feedback and acting upon it in a positive way. Seeks opportunities for personal development in order to continuously improve.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 565,
+            "name": "row6val5",
+            "description": "Takes ownership and accepts feedback. Is able to coach others to take ownership and turn it into actionable change. Strives for continual self development.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Communication",
-    "route": "communication"
+    "route": "communication",
+    "rows": [
+      {
+        "id": 61,
+        "name": "Written",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 611,
+            "name": "row1val1",
+            "description": "Fails to convey ideas and facts in writing using language the reader will best understand. Fails to apply correct spelling, punctuation, capitalization, and grammar or sentence structure when writing.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 612,
+            "name": "row1val2",
+            "description": "Inconsistently conveys ideas and facts in writing using language the reader will best understand. Sometimes applies incorrect spelling, punctuation, capitalization, and grammar or sentence structure when writing.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 613,
+            "name": "row1val3",
+            "description": "Conveys ideas and facts in writing using language the reader will best understand through the use of direct messaging and appropriate spelling, word choice and grammar.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 614,
+            "name": "row1val4",
+            "description": "Tailors efficient and effective written communication to the audience through the use of direct messaging and appropriate spelling, word choice and grammar.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 615,
+            "name": "row1val5",
+            "description": "Excels in communicating in writing through the positioning of efficient and effective written communication to the audience through the use of direct messaging and appropriate spelling, word choice and grammar. Is a role models to others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Thought Organization",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 621,
+            "name": "row2val1",
+            "description": "Thoughts, ideas, information and messages are not conveyed in a logical, organized, and coherent manner resulting in confusion or the listener not interpreting the message as it was intended.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 622,
+            "name": "row2val2",
+            "description": "Thoughts, ideas, information and messages are inconsistently conveyed in a logical, organized, and coherent manner resulting in confusion or the listener not interpreting the message as it was intended.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 623,
+            "name": "row2val3",
+            "description": "Can communicate thoughts, ideas, information, messages, and other  information in a logical, organized, and coherent manner, allowing the reader or listener to understand the message conveyed.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 624,
+            "name": "row2val4",
+            "description": "Can communicate thoughts, ideas, information, messages, and other  information in a logical, organized, and coherent manner, allowing the reader or listener to understand the message conveyed. Reflects or asks for feedback on message communicated to strengthen communication.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 625,
+            "name": "row2val5",
+            "description": "Can communicate thoughts, ideas, information, messages, and other  information in a logical, organized, and coherent manner in both written and verbal communications, allowing reader or listener to understand the message conveyed. Reflects or asks for feedback on message communicated to strengthen communication. Provides others constructive feedback in a positive manner and is a role model to others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Word Choice",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 631,
+            "name": "row3val1",
+            "description": "Utilizes inappropriate word choice, tone or language in written or verbal communication. Utilizes technical and local jargon, or excessive abbreviations. (Frequently violates the English Only Policy offshore)",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 632,
+            "name": "row3val2",
+            "description": "Tends to utilize inappropriate word choice, tone or language in written or verbal communication. Utilizes technical and local jargon, or excessive abbreviations. (Periodically violates the English Only Policy offshore)",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 633,
+            "name": "row3val3",
+            "description": "Writes and speaks in a manner appropriate for business using appropriate tone and word choice and language. Applies the utilization of technical and local jargon appropriately. (including the English Only Policy offshore)",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 634,
+            "name": "row3val4",
+            "description": "Effectively articulates thoughts and ideas in a manner appropriate for business using appropriate tone and word choice and language, including the ability to appropriately communicate to internal and external key stakeholders.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 635,
+            "name": "row3val5",
+            "description": "Effectively articulates thoughts and ideas in a manner appropriate for business using appropriate tone and word choice and language, Excels in the ability to appropriately communicate to internal and external key stakeholders.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Active Listening",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 641,
+            "name": "row4val1",
+            "description": "Does not demonstrate active listening skills",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 642,
+            "name": "row4val2",
+            "description": "Inconsistently demonstrates active listening skills",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 643,
+            "name": "row4val3",
+            "description": "Demonstrates active listening skills",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 644,
+            "name": "row4val4",
+            "description": "Displays active listening through utilization of effective questions and thoughtful consideration of other's ideas and actions.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 645,
+            "name": "row4val5",
+            "description": "Displays active listening through utilization of effective questions and thoughtful consideration of other’s ideas and actions and encourages other to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Cross-level Communication",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 651,
+            "name": "row5val1",
+            "description": "Lacks ability to communicate with direct reports, peers or leaders within their program.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 652,
+            "name": "row5val2",
+            "description": "Displays limited ability to communicate with direct reports, peers or leaders within their program.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 653,
+            "name": "row5val3",
+            "description": "Comfortable communicating with direct reports, peers and leaders within their program.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 654,
+            "name": "row5val4",
+            "description": "Comfortable communicating with different levels of the organization, including executives, clients and other functional group leaders.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 655,
+            "name": "row5val5",
+            "description": "Effectively tailors message delivery to audience. Comfortable communicating with different levels of the organization, including executives, clients and other functional group leaders. Provides feedback to others to enhance their communication skills.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Urgency Approach",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 661,
+            "name": "row6val1",
+            "description": "Sends email when an urgent item is due, versus calling or escalating appropriately.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 662,
+            "name": "row6val2",
+            "description": "Inconsistently utilizes the correct medium (email or phone), to address urgent issues.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 663,
+            "name": "row6val3",
+            "description": "Utilizes the correct medium, email or phone, to address urgent issues.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 664,
+            "name": "row6val4",
+            "description": "Utilizes multiple methods of communication well before items become urgent while reinforcing deliverables and escalates appropriately.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 665,
+            "name": "row6val5",
+            "description": "Utilizes multiple methods of communication well before items become urgent while reinforcing deliverables and escalates appropriately. Provides constructive feedback to others in a positive way.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Training Delivery with Impact",
-    "route": "training-delivery-with-impact"
+    "route": "training-delivery-with-impact",
+    "rows": [
+      {
+        "id": 71,
+        "name": "Preparation",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 711,
+            "name": "row1val1",
+            "description": "Lacks readiness or preparation in facilitating a class. Is unfamiliar with material or does not arrive at work with enough time to prepare for class.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 712,
+            "name": "row1val2",
+            "description": "Inconsistantly displays readiness for class. Is familiar with material, however does not arrive at work with enough time to prepare for class.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 713,
+            "name": "row1val3",
+            "description": "Displays readiness or preparing when facilitating class through arriving on time and pre-reviewing the material for the day.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 714,
+            "name": "row1val4",
+            "description": "Displays readiness or preparing when facilitating class through arriving on time and pre-reviewing the material for the day. Learning plans and facilitation methods are adjusted in advance to accommodate learners' needs.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 715,
+            "name": "row1val5",
+            "description": "Always displays readiness when facilitating class by arriving early and pre-reviewing the material for the day. Learning plans and facilitation methods are adjusted in advance to accomodate learners' needs. Is a role model for others and provides best practices to others.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Learning Objectives",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 721,
+            "name": "row2val1",
+            "description": "Training objectives are not reviewed resulting in no conceptual understanding for participants.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 722,
+            "name": "row2val2",
+            "description": "Training objectives reviewed, but are not linked to intended training outcomes.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 723,
+            "name": "row2val3",
+            "description": "Training objectives reviewed and linked to intended training outcomes. Participants have a conceptual understanding of expectations and understand the importance of learning.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 724,
+            "name": "row2val4",
+            "description": "Training objectives reviewed and linked to intended training outcomes. Participants have a conceptual understanding of expectations and understand the importance of learning. Questions from participants are encouraged for clarification and further understanding.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 725,
+            "name": "row2val5",
+            "description": "Training objectives reviewed and linked to intended training outcomes throughout the entire class. Participants have a conceptual understanding of expectations and understand the importance of learning. Questions from participants are encouraged for clarification and further understanding. Objectives are clearly articulated and linked to the learner's role and responsiblities.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Learning Style",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 731,
+            "name": "row3val1",
+            "description": "Unable to articulate, identify and adjust to different approaches to learning that participants exhibit, including Adult Learning styles and existing knowledge levels.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 732,
+            "name": "row3val2",
+            "description": "Has general understanding of the different approaches to learning, however uses limited facilitation techniques, mostly lecture-type of discussion.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 733,
+            "name": "row3val3",
+            "description": "Strategizes, plans and utilizes a variety of learning approaches and methodologies to meet different participant's needs. Is able to make real time adjustments based on class engagement and knowledge transfer. Align learning solutions with course objectives and learner needs.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 734,
+            "name": "row3val4",
+            "description": "Strategizes, plans and utilizes a variety of learning approaches and methodologies to meet different participant's needs. Is able to make real time adjustments based on class engagement and knowledge transfer. Checks for understanding and feedback is non-judgemental and individualized and specific to the participant.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 735,
+            "name": "row3val5",
+            "description": "Strategizes, plans and utilizes a variety of learning approaches and methodologies to meet different participant's needs. Is able to make real time adjustments based on class engagement and knowledge transfer. Checks for understanding and feedback is non-judgemental and individualized and specific to the participant. Provision is made for participants to self assess and use feedback in their own learning.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "name": "Engagement",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 741,
+            "name": "row4val1",
+            "description": "Does not actively encourage collaboration during class discussion through effective questioning or respond to learners questions appropriately.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 742,
+            "name": "row4val2",
+            "description": "Inefficient in conveying learning objectives and outcomes. Answers to the questions is confusing to the learners. Interactions are generally appropriate but reflect occasional inconsistencies or disregard for learners.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 743,
+            "name": "row4val3",
+            "description": "Encourages participation and builds motivation. Successfully engages in class discussion, accommodates learners questions or interests. Answers to questions are understood by the learners. Learners exhibit comfort, trust with facilitator.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 744,
+            "name": "row4val4",
+            "description": "Encourages participation and builds motivation. Successfully engages in discussion, accommodates learners questions or interests. Answers to questions are understood by learners. Learners exhibit comfort, trust with facilitator. Learners are given the opportunity to express their opinions and are encouraged to give suggestions when needed.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 745,
+            "name": "row4val5",
+            "description": "Promotes participation to maximize learning by engaging the participants well throughout the entire training program. Effectively utilizes opportunities to enhance learning by building on spontaneous events and successfully accommodates participants' questions or interests which significantly enhances the curriculum. Demonstrates genuine caring and respect for individual participants. Interactions are appropriate and enhance the learning process. Teaches other facilitators to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "name": "Learning Environment",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 751,
+            "name": "row5val1",
+            "description": "Does not manage the learning environment. Learning sessions are facilitator-centered and needs of the learners are not recognized. Plan for organization and use of training room space is not demonstrated. Classroom procedures or routines for efficient use of instructional time is missing. Facilitator typically falls behind the designated agenda.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 752,
+            "name": "row5val2",
+            "description": "Displays inconsistency in managing the learning environment. Learning sessions include basic use of training room space and materials. A few training room procedures or routines for efficient use of instructional time are included. Minimal attention to specific strategies for managing participants' behavior. Facilitator sometimes falls behind the designated agenda.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 753,
+            "name": "row5val3",
+            "description": "Manages and promotes positive learning environment. Learning sessions include strategies for building rapport of the participants. Trainer encourages participants to find and utilize training materials. Training room procedures and routines for efficient use of training time are included. Time management is displayed by facilitator.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 754,
+            "name": "row5val4",
+            "description": "Manages and promotes positive learning environment. Learning sessions include strategies for building rapport with the participants and is sensitive to diversity. Facilitator encourages participants to find and utilize training materials and effectively adjusts activities to align with learning environment. Training room procedures and routines are effectively followed. Time management is displayed by facilitator.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 755,
+            "name": "row5val5",
+            "description": "Facilitator is a role model, always creating a positive learning environment. Learning sessions include strategies for building rapport with the participants and is sensitive to diversity and consistently relates to the expectations, roles and responsibilities of the participants. Encourages participants to find and utilize training materials and effectively adjusts activities to align with learning environment. The learning sessions include sharing best practices. Makes optimal use of instructional time, including transitions and collaboration of participants work. Teaching behavioral expectations are included and adhered to.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "Presentation",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 761,
+            "name": "row6val1",
+            "description": "Facilitator does not present themself well in class and acts poorly as a mentor for the group. Does not adhere to the company policies on dress code and work ethics. Creates unprofessional relationships with learners.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 762,
+            "name": "row6val2",
+            "description": "Inconsistent in demonstrating professional values. Application of company policies and work ethics are selective. Makes little effort to fulfill the role of a mentor to the participants. Relationships created with learners are not always professional.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 763,
+            "name": "row6val3",
+            "description": "Can articulate the values, ethics and standards of the organization. Reflects the professional values and ethics fundamental in training. Maintains poise and demeanor in class. Recognizes personal limitations of knowledge, experience and culture, stating limitations when necessary. Able to assess participants' level of skills and act as mentor as required. Observes appropriate professional boundaries.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 764,
+            "name": "row6val4",
+            "description": "Can articulate the values, ethics and standards of the organization. Reflects the professional values and ethics fundamental in training. Maintains poise and demeanor in class. Recognizes personal limitations of knowledge, experience and culture, and strategizes how to overcome boundaries. Maintains professional relationships with participants that are supportive of their learning needs. Presents them self at all times as a professional and observes appropriate boundaries expected. Proactively act as a mentor for the participants.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 765,
+            "name": "row6val5",
+            "description": "Emulates the values, ethics and standards of the organization and functional group. Is a role model in poise and demeanor in class. Recognizes personal limitations of knowledge, experience and culture, and strategizes how to overcome boundaries. Maintains professionalism at all times and is able to handle any situation with finesse and knowledge, sensitive to learning. Presents themself at all times as a professional and observes appropriate boundaries expected. Demonstrates respect and consideration for all participants. Models an approach to mentoring participants and peers characterized by an open-mind, a willingness to learn from each other, mutual respect, objectivity and rational critique.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 8,
     "name": "Evaluating Learning Impact",
-    "route": "evaluating-learning-impact"
+    "route": "evaluating-learning-impact",
+    "rows": [
+      {
+        "id": 81,
+        "name": "Reporting",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 811,
+            "name": "row1val1",
+            "description": "Does not maintain records of training-related information such as coaching records, attendance and daily required reports.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 812,
+            "name": "row1val2",
+            "description": "Inconsistently maintains records of training-related information such as coaching records, attendance and daily required reports.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 813,
+            "name": "row1val3",
+            "description": "Accurately and consistently maintains records of training-related information such as coaching records, attendance and daily required reports.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 814,
+            "name": "row1val4",
+            "description": "Accurately and consistently maintains records of training-related information such as coaching records, attendance and daily required reports. Analyzes data to draw conclusions and shares them appropriately.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 815,
+            "name": "row1val5",
+            "description": "Accurately and consistently maintains records of training-related information such as coaching records, attendance and daily required reports. Analyzes data to draw conclusions and shares them appropriately. Partners with peers and leader to analyze & validate data, draw action conclusions and leverage participant's improvement and growth.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Behvioral Levers",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 821,
+            "name": "row2val1",
+            "description": "Unable to communicate how key performance indicators and behavior link to the goals of the business. Lacks knowledge of the relationship between engagement, productivity and attrition.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 822,
+            "name": "row2val2",
+            "description": "Can discuss how the key performance indicators and behavior link to the goals of the business, however the learners are unable to communicate or demonstrate the principles. Is able to draw some connections between engagement, productivity and attrition.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 823,
+            "name": "row2val3",
+            "description": "Can discuss how the key performance indicators and behavior link to the goals of the business and the learners can communicate and demonstrate the principles. Is able to come up with solutions to outstanding issues related to productivity and attrition. Leverages findings to increase effectiveness and provide recommendations for change.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 824,
+            "name": "row2val4",
+            "description": "Can discuss how the key performance indicators and behavior link to the goals of the business and implements differentiated plans that maximizes opportunities for the learners. Is able to come up with solutions to outstanding issues related to productivity and attrition. Leverages findings to increase effectiveness and provide recommendations for change. Is a mentor for peers and shares best practices.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 825,
+            "name": "row2val5",
+            "description": "Evaluation and analysis of key performance indicators is completed with action plans provided for continuous performance improvement. Execution plans are focused and implemented on process or behavioral change that impacts the key performance indicators. Serves as a \"go-to\" resource for peers and leaders on connecting how workplace learning impacts operational metrics. Able to provide detailed action plans on issues related to engagement, productivity and attrition and the message and plans are well communicated to partners. Assists others with solving related challenges and role models best practices.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Impact of Learning on Performance",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 831,
+            "name": "row3val1",
+            "description": "Does not regard the performance of the learners as soon as they are out of training.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 832,
+            "name": "row3val2",
+            "description": "Inconsistently checks on performance of participants. Facilitates next class without analyzing performance of previous group and making appropriate adjustments in training.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 833,
+            "name": "row3val3",
+            "description": "During transition or learning lab, gathers and analyzes performance numbers. Consistently monitors and coaches performance of participants. Documents learners performance and general patterns to make adjustments in upcoming classes.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 834,
+            "name": "row3val4",
+            "description": "During transition or learning lab gathers and analyzes performance numbers. Effectively monitors and coaches performance of participants. Documents learners performance and understands patterns for future reference. Uses data for interim assessments/activities to adjust training/coaching, retrain, and follow up with the participants. Reflects on the effectiveness of the training/coaching and continuously works to improve.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 835,
+            "name": "row3val5",
+            "description": "During transition or learning lab gathers and analyzes performance numbers to effectively and efficiently coach behaviors. Documents learners performance and integrates trends for future reference. Uses data for interim assessments/activities to adjust training/coaching, retrain, and follow up with the participants. Manages and analyzes 30 and 60 days post training performance and provides understanding of potential issues and relate back to training by providing recommendations for program and delivery improvement. Communicates updates throughout training organization.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 9,
     "name": "Effective Learning Technology Management",
-    "route": "effective-time-management"
+    "route": "effective-time-management",
+    "rows": [
+      {
+        "id": 91,
+        "name": "Learning Management System",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 911,
+            "name": "row1val1",
+            "description": "Utilization of learning management system (Alps or client) is not fully maximized. Learners do not complete required courses in a timely manner.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 912,
+            "name": "row1val2",
+            "description": "Utilization of learning management system (Alps or client) is inconsistent. Follow-up is sometimes needed for completion of courses (both personal and class related).",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 913,
+            "name": "row1val3",
+            "description": "Utilizes learning management system appropriately. Ensures completion of all mandatory ALPS courses, both company and client (learners and personal) on the set timeline or deadline.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 914,
+            "name": "row1val4",
+            "description": "Utilizes learning management system appropriately. Ensures completion of all Alps courses, both company and client (learner and personal) on the set timeline or deadline. Can effectively troubleshoot challenges that arise with the LMS.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 915,
+            "name": "row1val5",
+            "description": "Maximizes the use of the Alps system by completing mandatory courses (learner and personal) and understands relation to performance improvement and process knowledge ahead of the timeline or deadline. Recommends improvements to LMS and helps resolve LMS related issues.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "name": "Timekeeping",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 921,
+            "name": "row2val1",
+            "description": "Does not regularly check time keeping system. Payroll correction deadlines are missed and payroll errors occur.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 922,
+            "name": "row2val2",
+            "description": "Inconsistently monitors time keeping system (personal and class). Payroll correction deadlines sometimes missed or payroll errors sometimes occur.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 923,
+            "name": "row2val3",
+            "description": "Timekeeping system is checked daily and builds habit with learners to regularly check timecards. Payroll deadlines are met with very minimal errors.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 924,
+            "name": "row2val4",
+            "description": "Timekeeping system is checked daily and builds habit with learners to regularly check timecards. Payroll deadlines are always met and leader ensures forms are correct.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 925,
+            "name": "row2val5",
+            "description": "Timekeeping system is checked daily and builds habit with learners to regularly check timecards. Payroll deadlines are always met and leader ensures forms are correct. Is a role model for their team and encourages and supports team members to complete tasks in a timely manner.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "name": "Process",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 931,
+            "name": "row3val1",
+            "description": "Leader is not familiar with the HR processes such as Recommendation for Termination, Attrition Notice, Transfers etc. Does not follow outlined processes.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 932,
+            "name": "row3val2",
+            "description": "Leader inconsistently follows HR processes such as Recommendation for Termination, Attrition Notice, Transfers etc. Frequently asks for assistance with pre-determined process.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 933,
+            "name": "row3val3",
+            "description": "Leader is familiar with the HR processes such as Recommendation for Termination, Attrition Notice, Transfers etc. and follows the processes as set.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 934,
+            "name": "row3val4",
+            "description": "Leader is  familiar with the HR processes such as Recommendation for Termination, Attrition Notice, Transfers etc. and follows the processes as designed and assists others in implementing proper process and decisions.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 935,
+            "name": "row3val5",
+            "description": "Leader is familiar with the HR processes such as Recommendation for Termination, Attrition Notice, Transfers etc. and follows the processes as designed and assists others in implementing proper process and decisions. Is able to interpret knowledge of the HR processes to maintain or increase awareness of practices that translates to employee satisfaction.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 10,
     "name": "Client Relationship Management",
-    "route": "client-relationship-management"
+    "route": "client-relationship-management",
+    "rows": [
+      {
+        "id": 101,
+        "name": "Communication Filters",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 1011,
+            "name": "row1val1",
+            "description": "Does not utilize an internal filter prior to sharing messages with the client which results in communicating at an inappropriate time, setting, to the wrong audience or unintended consequences occur. Ineffectively communicates the message to the client.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 1012,
+            "name": "row1val2",
+            "description": "Sometimes shares messages inappropriate for the time, setting, audience or does not consider potential consequences of message. Sometimes communicates the right message in the wrong way.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 1013,
+            "name": "row1val3",
+            "description": "Has the ability to filter their communication appropriately by internally reviewing the filters of timing (is it the right time?), setting (is this the right setting to make this statement?), audience (is this the best/most appropriate audience to share this with?), and unintended consequence (what are potential consequences if I share this information). Is able to communicate the right message in the right way. Has the forethought to run messages through leadership to ensure it will be communicated appropriately.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 1014,
+            "name": "row1val4",
+            "description": "Has the ability to  filter their communication appropriately by internally reviewing the filters of timing (is it the right time?), setting (is this the right setting to make this statement?), audience (is this the best/most appropriate audience to share this with?), and unintended consequence (what are potential consequences if I share this information). Leadership trusts individual to communicate with the client, needing only minimal oversight.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 1015,
+            "name": "row1val5",
+            "description": "Is a role model when communicating to the client. Communicates the right message in the right way, considering time, setting, audience and intended consequence. Teaches other to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Sense of Urgency",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 1021,
+            "name": "row1val1",
+            "description": "Unable to effectively balance assigned tasks from clients and leadership. Is not able to prioritize assigned tasks effectively, resulting in missed due dates. Focuses on what can't be done versus what can be done.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 1022,
+            "name": "row1val2",
+            "description": "Struggles with balancing day to day tasks with urgent and important client requests. Sometimes does not meet dates for assigned deliverables due to ineffective time prioritization.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 1023,
+            "name": "row1val3",
+            "description": "Understands and implements effective prioritization of client requests and tasks.  Balances the urgent and important items along with day to day deliverables. Communicates appropriate response times to leadership and client (instead of saying yes to all deliverables and dates). Proposes solutions for what can be done instead of what cannot be done.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 1024,
+            "name": "row1val4",
+            "description": "Effectively implements prioritization of client requests and tasks. Balances urgent and important items along with day to day deliverables. Communicates appropriate response times to leadership and client. Proactively proposes solutions to challenges. Communicates appropriate sense of urgency and importance to any internal project team members.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 1025,
+            "name": "row1val5",
+            "description": "Effectively implements prioritization of client requests and tasks. Balances urgent and important items along with day to day deliverables. Communicates appropriate response times to leadership and client. Proactively proposes solutions to challenges. Communicates appropriate sense of urgency and importance to any internal project team members, while teaching others to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Professional Relationships",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 1031,
+            "name": "row1val1",
+            "description": "Unable to maintain a professional relationship with clients. Becomes personally involved with the client outside of work (friendship or otherwise). Communicates with client outside of work approved email (Facebook, twitter, personal calls, etc.) Consistently does not meet deadlines, causing distrust with the client.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 1032,
+            "name": "row1val2",
+            "description": "Is periodically challenged with maintaining professional relationships through becoming friends with the client versus \"being friendly\", utilizing casual versus professional language with the client or having to recommunicate deliverable dates multiple times.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 1033,
+            "name": "row1val3",
+            "description": "Maintains professional relationship demonstrated through professional conduct, communicating only within the scope of the job and consistently delivering results when promised.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 1034,
+            "name": "row1val4",
+            "description": "Maintains professional relationship demonstrated through professional conduct, communicating only within the scope of the job and consistently delivering results when promised. Brings challenges and observations to internal leadership to ensure visibility and solutioning is present.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 1035,
+            "name": "row1val5",
+            "description": "Is a role model of professionalism, demonstrated through professional conduct, communicating only within the scope of the job and consistently delivering results when promised. Brings challenges and observations to internal leadership to ensure visibility and provides recommended solutions.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Preparedness",
+        "minval": 1,
+        "maxval": 5,
+        "curval": 0,
+        "behaviors": [
+          {
+            "id": 1041,
+            "name": "row1val1",
+            "description": "Does not understand the client's business and how the manager position impacts the outcomes. Has challenges translating desired behaviors into performance. Presents challenges, but does not always have a solution for the gap.",
+            "style": "text-align:left; padding-left: 8px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 1
+          },
+          {
+            "id": 1042,
+            "name": "row1val2",
+            "description": "Understands the client's business and how the manager position impacts the outcomes, however has difficulty translating this understanding into a positive impact on performance. Is able to discuss why each KPI is important and how it relates to the customer, Afni and the client, but does not always take appropriate steps to ensure teams performance meets expectations. Presents challenges, but does not always have a solution for the gap.",
+            "style": "text-align:left;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 2
+          },
+          {
+            "id": 1043,
+            "name": "row1val3",
+            "description": "Understands the client's business and how the manager position impacts the outcomes. Is able to discuss why each KPI is important and how it relates to the customer, Afni and the client. Takes appropriate steps to understand the levers and drivers behind teams performance. Presents action plans and steps to resolve gaps.",
+            "style": "text-align:center;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 3
+          },
+          {
+            "id": 1044,
+            "name": "row1val4",
+            "description": "Understands the client's business and how the manager position impacts the outcomes. Is able to discuss and connect why each KPI is important and how it relates to the customer, Afni and the client and translate this information to direct reports. Proactively identifies potential challenges and takes appropriate steps to close the gaps. Takes appropriate steps to understand the levers and drivers behind teams performance.",
+            "style": "text-align:right;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 4
+          },
+          {
+            "id": 1045,
+            "name": "row1val5",
+            "description": "Is a role model in being prepared for any questions related to teams performance. Answers questions at the correct level and relates how the team performance relates to the client business. Proactively identifies potential challenges and takes appropriate steps to close the gaps. Takes appropriate steps to ensure the levers and drivers behind teams performance are aligned for success. Teaches team to do the same.",
+            "style": "text-align:right; white-space:break-word; padding-right:5px;",
+            "currstyle": "padding:16px; font-weight:bold;",
+            "value": 5
+          }
+        ]
+      }
+    ]
   }
 ]
