@@ -13,6 +13,8 @@
 #scrollable-area {
 	margin: auto;
 	height: 450px;
+    min-width:810px;
+	max-width:1010px;
 	border: 1px solid #ccc;
 	overflow-y: scroll; /* <-- here is what is important*/
 }
