@@ -2,18 +2,22 @@
     <div flex="15" hide show-gt-md></div>
     <div layout="column" flex>
         <md-card class="card-size">
-            <md-card-header>
-                <md-card-header-text>
-                    <span class="md-headline">{{$ctrl.competency.name}} Results</span>
-                </md-card-header-text>
-            </md-card-header>
+            <md-card-title>
+				<md-card-title-text layout="column" layout-align="start center" flex>
+					<span class="md-headline" flex="auto">Competency Group: <b>{{ $ctrl.competency.name }}</b></span>
+				</md-card-title-text>
+			</md-card-title>
+            <md-card-content>
+                <span class="md-headline">Step 2 - Results</span>
+				<p><span>Copy the text from the box below. Enter the rating into the <b>{{$ctrl.competency.name}}</b> Section and paste the behavior list into the comments section.</span></p>
+            </md-card-content>
         </md-card>
         <md-card class="card-size">
             <md-card-content>
                 <div style="text-align: center;" style="margin-bottom: 2%;">
                     <span>The Rating is:</span>
                     <h2 ng-attr-style="{{$ctrl.finalScore.scoreText.color}}">{{$ctrl.finalScore.roundScore}}</h2> or <h2 ng-attr-style="{{$ctrl.finalScore.scoreText.color}}">{{$ctrl.finalScore.scoreText.textScore}}</h2>
-                    <span>Copy the text below. Enter the rating into the <b>{{$ctrl.competency.name}}</b> Section and paste the behavior list into the comments section.</span>
+                    <span>Copy the text below</span>
                     <br />
                     <i class="material-icons" style="font-size: xx-large; color: black;">&#xE5DB;</i>
                 </div>

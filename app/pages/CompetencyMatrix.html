@@ -1,11 +1,16 @@
-﻿
-<div layout="row">
+﻿<div layout="row">
     <div flex="15" hide show-gt-md></div>
     <div layout="column" flex>
         <md-card class="card-size">
+			<md-card-title>
+				<md-card-title-text layout="column" layout-align="start center" flex>
+					<span class="md-headline" flex="auto">Competency Group: <b>{{ $ctrl.competency.name }}</b></span>
+				</md-card-title-text>
+			</md-card-title>
+			<md-divider></md-divider>
             <md-card-content>
-                <span class="md-headline">Step 1</span>
-                <p>Use the sliders below to choose the options that best describe the behaviors displayed for the <b>{{ $ctrl.competency.name }}</b> competency.Hover over the behavior abbreviations for a more detailed description.</p><p>Press the <b>Get Rating</b> button when finished.</p>
+                <span class="md-headline">Step 1 - Behavior Select</span>
+                <p>Use the sliders below to choose the options that best describe the behaviors displayed for each competency in the <b>{{ $ctrl.competency.name }}</b> group. Hover over the behavior abbreviations for a more detailed description.</p><p>Press the <b>Get Rating</b> button when finished.</p>
             </md-card-content>
         </md-card>
 
@@ -28,8 +33,8 @@
                                 <td md-cell colspan="5" style="text-align:center;"><b>{{row.name}}</b></td>
                             </tr>
                             <tr>
-                                <td md-cell colspan="5" class="slider-cell" md-theme="{{row.curval}}">
-                                    <md-slider required md-discrete name="comp{{row.id}}" aria-label="{{row.name}} slider" class="slider-cell md-primary" ng-model="row.curval" step=".2" min="{{row.minval}}" max="{{row.maxval}}"></md-slider>
+                                <td md-cell colspan="5" class="slider-cell">
+                                    <md-slider md-theme="{{row.curval | number:0}}" required md-discrete name="comp{{row.id}}" aria-label="{{row.name}} slider" class="slider-cell md-primary" ng-model="row.curval" step=".2" min="{{row.minval}}" max="{{row.maxval}}"></md-slider>
                                     <div ng-messages="competencyForm.comp{{row.id}}.$error" ng-hide="competencyForm.comp{{row.id}}.$valid">
                                         <div ng-message="required" class="warn-msg">*Please select a competency level</div>
                                     </div>

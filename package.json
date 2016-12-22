@@ -24,7 +24,9 @@
     "angular-material-data-table": "0.10.10",
     "angular-messages": "1.6.0",
     "angular-ui-router": "1.0.0-beta.3",
-    "es6-shim": "^0.35.2"
+    "es6-shim": "^0.35.2",
+    "material-design-icons": "^3.0.1",
+    "md-data-table": "^2.2.0"
   },
   "devDependencies": {
     "body-parser": "1.15.2",
