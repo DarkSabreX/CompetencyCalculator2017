@@ -1,5 +1,5 @@
 ﻿<div layout="row" layout-fill>
-    <md-sidenav md-is-locked-open="$mdMedia('gt-md')" layout="column" flex>
+    <md-sidenav md-is-locked-open="true" layout="column" flex>
         <span>Competencies</span>
         <a ng-repeat="competency in $ctrl.competencies track by competency.id" ui-sref-active="active" ui-sref="step1({competencyRoute: competency.route})">
             <md-button ng-disabled="false" class="md-raised md-primary">{{competency.name}}</md-button>

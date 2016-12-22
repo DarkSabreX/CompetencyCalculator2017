@@ -24,6 +24,39 @@ angular.module('calc')
                 return angular.fromJson(json)
             };
 
+            this.sliderRound = function (val) {
+                if (val > 0 && val < 1.5) {
+                    return val = "one";
+                }
+                if (val >= 1.5 && val < 2) {
+                    return val = "onePointFive";
+                }
+                if (val >= 2 && val < 2.5) {
+                    return val = "two";
+                }
+                if (val >= 2.5 && val < 3) {
+                    return val = "twoPointFive";
+                }
+                if (val >= 3 && val < 3.5) {
+                    return val = "three";
+                }
+                if (val >= 3.5 && val < 4) {
+                    return val = "threePointFive";
+                }
+                if (val >= 4 && val < 4.5) {
+                    return val = "four";
+                }
+                if (val >= 4.5 && val < 5) {
+                    return val = "fourPointFive";
+                }
+                if (val == 5) {
+                    return val = "five";
+                }
+                else {
+                    return val = 'zero';
+                }
+            };
+
             this.competencyScore = function () {
                 /**
                  Define the variables

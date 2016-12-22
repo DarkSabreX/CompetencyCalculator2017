@@ -2,55 +2,49 @@
 <html>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>ALPS Competency Calculator</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>ALPS Competency Calculator</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 
-    <!-- Stylesheets -->
-    <link href="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material.css" rel="stylesheet" type="text/css">
-    <link href="/content/AFNI/publications/2910/wor/wo_4466/node_modules/md-data-table.css" rel="stylesheet" type="text/css">
-    <!-- Custom Stylesheet -->
-    <link href="/content/AFNI/publications/2718/wor/wo_4525/css/compcalc.css" rel="stylesheet" type="text/css">
-    <!--Load Angular and Ui Router-->
-	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/es6-shim.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-ui-router.js"></script>
+	<!-- Stylesheets -->
+	<link href="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material/angular-material.css" rel="stylesheet" type="text/css">
+	<link href="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material-data-table/md-data-table.css" rel="stylesheet" type="text/css">
+	<!-- Custom Stylesheet -->
+	<link href="/content/AFNI/publications/2718/wor/wo_4525/css/compcalc.css" rel="stylesheet" type="text/css">
+	<!--Load js shims-->
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/shim/es5-shim.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/shim/es6-shim.js"></script>
+	<!--Load Angular and Ui Router-->
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular/angular-ui-router.js"></script>
 
-    <!-- Load Angular Material and dependencies-->
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-animate.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-aria.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-messages.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/md-data-table.js"></script>
-
-    <!-- Ui-Route Visualizer REMOVE THIS-->
-    <script src="//unpkg.com/ui-router-visualizer@2"></script>
-
-    <!-- Load custom js-->
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.app.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.themeconfig.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.routeconfig.js"></script>
-    <!-- Load Components-->
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/pagecontainer.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/starthere.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/competencymatrix.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/matrixResults.js"></script>
-
-    <!-- Load Services-->
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/compmatrix.service.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/comprating.service.js"></script>
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/compscore.service.js"></script>
-	<!-- Load Controller-->
-    <!--<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/controllers/calc.compmatrix.controller.js"></script> -->
+	<!-- Load Angular Material and dependencies-->
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular/angular-animate.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular/angular-aria.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular/angular-messages.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material/angular-material.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material-data-table/md-data-table.js"></script>
 
 
-    <!-- Remove this one once it has been rebuilt into a Factory-->
-    <script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/js/comparr.js"></script>
-    <!--<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.uivizrun.js"></script>-->
+	<!-- Load custom js-->
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.app.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.themeconfig.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/calc.routeconfig.js"></script>
+	<!-- Load Components-->
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/pagecontainer.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/starthere.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/competencymatrix.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/components/matrixResults.js"></script>
+
+	<!-- Load Services-->
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/compmatrix.service.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/comprating.service.js"></script>
+	<script type="text/javascript" src="/content/AFNI/publications/2718/wor/wo_4525/app/services/compscore.service.js"></script>
+
 
 
 </head>
 <body class="bg" ng-app="calc" layout="column">
-        <ui-view flex></ui-view>
+		<ui-view flex></ui-view>
 </body>
 </html>

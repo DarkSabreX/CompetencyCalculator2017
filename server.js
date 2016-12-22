@@ -8,22 +8,22 @@ var serverPort = '3000';
 
 app.use(express.static(__dirname + '/')); 	// set the static files location /img will be /img for users
 
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-material'));     // Angular Material CSS
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angularjs-slider/dist'));     // Angular slider CSS
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table CSS
 app.use('/content/AFNI/publications/2718/wor/wo_4525/css', express.static(__dirname + '/css'));     // MD Data Table CSS
 
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/es6-shim'));     // set static files location for shim files
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular'));     // set static files location for angular js files
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-ui-router/release'));     // set static files location for angular ui-router js files
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-aria'));     // set static files location for angular animate
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-animate'));     // set static files location for angular animate
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-messages'));     // set static files location for angular messages
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-material'));     // set static files location for angular material
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table js
-app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules', express.static(__dirname + '/node_modules/angularjs-slider/dist'));     // Angularjs slider js
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/shim', express.static(__dirname + '/node_modules/es5-shim'));     // set static files location for shim files
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/shim', express.static(__dirname + '/node_modules/es6-shim'));     // set static files location for shim files
 
-app.use('/content/AFNI/publications/2718/wor/wo_4525/js', express.static(__dirname + '/js'));     // Calculator and comparray JS
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular', express.static(__dirname + '/node_modules/angular'));     // set static files location for angular js files
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular', express.static(__dirname + '/node_modules/angular-ui-router/release'));     // set static files location for angular ui-router js files
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular', express.static(__dirname + '/node_modules/angular-aria'));     // set static files location for angular animate
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular', express.static(__dirname + '/node_modules/angular-animate'));     // set static files location for angular animate
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular', express.static(__dirname + '/node_modules/angular-messages'));     // set static files location for angular messages
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material', express.static(__dirname + '/node_modules/angular-material'));     // set static files location for angular material
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/angular-material-data-table', express.static(__dirname + '/node_modules/angular-material-data-table/dist'));     // MD Data Table js
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/font/iconfont', express.static(__dirname + '/node_modules/material-design-icons/iconfont'));     // Material icons
+app.use('/content/AFNI/publications/2910/wor/wo_4466/node_modules/font/roboto-npm-webfont', express.static(__dirname + '/node_modules/roboto-npm-webfont'));     // Roboto Font
+
+
 app.use('/content/AFNI/publications/2718/wor/wo_4525/app', express.static(__dirname + '/app'));
 
 //app.use('/angular', express.static(__dirname + '/node_modules/svg-morpheus/compile/unminified'));

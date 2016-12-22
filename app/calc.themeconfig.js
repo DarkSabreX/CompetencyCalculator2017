@@ -2,102 +2,55 @@
 
 angular.module('calc')
     .config(function ($mdThemingProvider) {
-        $mdThemingProvider.definePalette('zero', {
-            '50': '#ffebee',
-            '100': '#ffcdd2',
-            '200': '#ef9a9a',
-            '300': '#e57373',
-            '400': '#ef5350',
-            '500': '#f44336',
-            '600': '#e53935',
-            '700': '#d32f2f',
-            '800': '#c62828',
-            '900': '#b71c1c',
-            'A100': '#ff8a80',
-            'A200': '#ff5252',
-            'A400': '#ff1744',
-            'A700': '#d50000',
-            'contrastDefaultColor': 'light',
-            'contrastDarkColors': '50 100 200 300 A100',
-            'contrastStrongLightColors': '400 500 600 700 A200 A400 A700'
+        var onePointFiveMap = $mdThemingProvider.extendPalette('red', {
+            '500': '#FA821F'
         });
-        $mdThemingProvider.definePalette('zeroBG', {
-            '50': '#fafafa',
-            '100': '#f5f5f5',
-            '200': '#eeeeee',
-            '300': '#e0e0e0',
-            '400': '#bdbdbd',
-            '500': '#9e9e9e',
-            '600': '#757575',
-            '700': '#616161',
-            '800': '#424242',
-            '900': '#212121',
-            'A100': '#ffffff',
-            'A200': '#000000',
-            'A400': '#303030',
-            'A700': '#616161',
-            'contrastDefaultColor': 'dark',
-            'contrastLightColors': '600 700 800 900 A200 A400 A700'
+        var twoPointFiveMap = $mdThemingProvider.extendPalette('amber', {
+            '500': '#A6B82C'
         });
-        $mdThemingProvider.definePalette('two', {
-            '50': '#ffebee',
-            '100': '#ffcdd2',
-            '200': '#ef9a9a',
-            '300': '#e57373',
-            '400': '#ef5350',
-            '500': '#f44336',
-            '600': '#e53935',
-            '700': '#d32f2f',
-            '800': '#c62828',
-            '900': '#b71c1c',
-            'A100': '#ff8a80',
-            'A200': '#ff5252',
-            'A400': '#ff1744',
-            'A700': '#d50000',
-            'contrastDefaultColor': 'light',
-            'contrastDarkColors': '50 100 200 300 A100',
-            'contrastStrongLightColors': '400 500 600 700 A200 A400 A700'
+        var threePointFiveMap = $mdThemingProvider.extendPalette('green', {
+            '500': '#26A36C'
         });
-        $mdThemingProvider.definePalette('twoBG', {
-            '50': '#fafafa',
-            '100': '#f5f5f5',
-            '200': '#eeeeee',
-            '300': '#e0e0e0',
-            '400': '#bdbdbd',
-            '500': '#9e9e9e',
-            '600': '#757575',
-            '700': '#616161',
-            '800': '#424242',
-            '900': '#212121',
-            'A100': '#ffffff',
-            'A200': '#f44336',
-            'A400': '#303030',
-            'A700': '#616161',
-            'contrastDefaultColor': 'dark',
-            'contrastLightColors': '600 700 800 900 A200 A400 A700'
+        var fourPointFiveMap = $mdThemingProvider.extendPalette('teal', {
+            '500': '#20749F'
         });
+        $mdThemingProvider.definePalette('onePointFive', onePointFiveMap);
+        $mdThemingProvider.definePalette('twoPointFive', twoPointFiveMap);
+        $mdThemingProvider.definePalette('threePointFive', threePointFiveMap);
+        $mdThemingProvider.definePalette('fourPointFive', fourPointFiveMap);
+
 
         $mdThemingProvider.theme('default')
             .warnPalette('deep-purple');
 
-        $mdThemingProvider.theme('0')
+        $mdThemingProvider.theme('zero')
             .primaryPalette('red');
 
-        $mdThemingProvider.theme('1')
-            .primaryPalette('zero')
-            .backgroundPalette('zeroBG');
+        $mdThemingProvider.theme('one')
+            .primaryPalette('red');
 
-        $mdThemingProvider.theme('2')
-            .primaryPalette('two')
-            .backgroundPalette('twoBG');
+        $mdThemingProvider.theme('onePointFive')
+            .primaryPalette('onePointFive');
 
-        $mdThemingProvider.theme('3')
+        $mdThemingProvider.theme('two')
+            .primaryPalette('amber');
+
+        $mdThemingProvider.theme('twoPointFive')
+            .primaryPalette('twoPointFive');
+
+        $mdThemingProvider.theme('three')
             .primaryPalette('green');
 
-        $mdThemingProvider.theme('4')
+        $mdThemingProvider.theme('threePointFive')
+            .primaryPalette('threePointFive');
+
+        $mdThemingProvider.theme('four')
             .primaryPalette('teal');
 
-        $mdThemingProvider.theme('5')
+        $mdThemingProvider.theme('fourPointFive')
+            .primaryPalette('fourPointFive');
+
+        $mdThemingProvider.theme('five')
             .primaryPalette('indigo');
 
         $mdThemingProvider.alwaysWatchTheme(true);

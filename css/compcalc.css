@@ -1,4 +1,7 @@
- body { 
+@import "/content/AFNI/publications/2910/wor/wo_4466/node_modules/font/roboto-npm-webfont/style.css";
+@import "/content/AFNI/publications/2910/wor/wo_4466/node_modules/font/iconfont/material-icons.css";
+ 
+body { 
 	 overflow: hidden; 
 	 max-width: 100%; 
 	 max-height: 100%; 
@@ -13,7 +16,7 @@
 #scrollable-area {
 	margin: auto;
 	height: 450px;
-    min-width:810px;
+	min-width:810px;
 	max-width:1010px;
 	border: 1px solid #ccc;
 	overflow-y: scroll; /* <-- here is what is important*/

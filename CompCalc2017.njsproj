@@ -27,7 +27,6 @@
     <Compile Include="app\services\compscore.service.js" />
     <Compile Include="app\services\comprating.service.js" />
     <Compile Include="app\services\compmatrix.service.js" />
-    <Compile Include="app\services\round.filter.js" />
     <Compile Include="server.js" />
     <Content Include="app\pages\PageContainer.html" />
     <Content Include="data\competency.schema.json" />
@@ -51,7 +50,6 @@
   <ItemGroup>
     <Folder Include="app\components\" />
     <Folder Include="css" />
-    <Folder Include="css\fonts\" />
     <Folder Include="img\" />
     <Folder Include="js" />
     <Folder Include="app\services\" />
